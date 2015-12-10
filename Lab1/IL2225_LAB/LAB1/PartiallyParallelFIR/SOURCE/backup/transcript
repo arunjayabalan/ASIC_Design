@@ -1,0 +1,160 @@
+# //  ModelSim SE 6.5 Jan 22 2009 Linux 2.6.18-400.el5
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project Parallel_FIR_Test
+# Compile of ArithUnit.vhd was successful.
+# Compile of coefRom.vhd was successful.
+# Compile of DelayLine.vhd was successful.
+# Compile of FSM.vhd was successful.
+# Compile of MAC.vhd was successful.
+# Compile of misc.vhd was successful.
+# Compile of myPackage.vhd was successful.
+# Compile of TB_Serial_FIR.vhd was successful with warnings.
+# Compile of TopFIR.vhd was successful.
+# 9 compiles, 0 failed with no errors. 
+vsim work.top_serial_fir
+# vsim work.top_serial_fir 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.misc(body)
+# Loading work.types_consts
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.top_serial_fir(structural)#1
+# ** Fatal: (vsim-3348) Port size (10) does not match actual size (24) for port '/top_serial_fir/a1/coeff'.
+#    Time: 0 ns  Iteration: 0  Instance: /top_serial_fir/a1 File: /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/TopFIR.vhd Line: 13
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of ArithUnit.vhd was successful.
+# Compile of coefRom.vhd was successful.
+# Compile of DelayLine.vhd was successful.
+# Compile of FSM.vhd was successful.
+# Compile of MAC.vhd was successful.
+# Compile of misc.vhd was successful.
+# Compile of myPackage.vhd was successful.
+# Compile of TB_Serial_FIR.vhd was successful with warnings.
+# Compile of TopFIR.vhd was successful.
+# 9 compiles, 0 failed with no errors. 
+vsim work.tb_fullyserial
+# vsim work.tb_fullyserial 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.misc(body)
+# Loading work.types_consts
+# Loading work.tb_fullyserial(behavior)#1
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.top_serial_fir(structural)#1
+# ** Fatal: (vsim-3348) Port size (10) does not match actual size (24) for port '/tb_fullyserial/p1/a1/coeff'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1 File: /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/TopFIR.vhd Line: 13
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of ArithUnit.vhd was successful.
+# Compile of coefRom.vhd was successful.
+# Compile of DelayLine.vhd was successful.
+# Compile of FSM.vhd was successful.
+# Compile of MAC.vhd was successful.
+# Compile of misc.vhd was successful.
+# Compile of myPackage.vhd was successful.
+# Compile of TB_Serial_FIR.vhd was successful with warnings.
+# Compile of TopFIR.vhd was successful.
+# 9 compiles, 0 failed with no errors. 
+# Load canceled
+vsim work.tb_fullyserial
+# vsim work.tb_fullyserial 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.misc(body)
+# Loading work.types_consts
+# Loading work.tb_fullyserial(behavior)#1
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.top_serial_fir(structural)#1
+add wave \
+{sim:/tb_fullyserial/clk } \
+{sim:/tb_fullyserial/rst_n } \
+{sim:/tb_fullyserial/sample_clk } \
+{sim:/tb_fullyserial/sample } \
+{sim:/tb_fullyserial/conv_sum } \
+{sim:/tb_fullyserial/dav } 
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/a1/mac1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/c1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/c1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/d1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/d1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/d1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fullyserial/p1/d1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/d1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/d1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/d1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/d1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/a1/mac1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/a1/mac1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/a1/mac1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/a1/mac2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/a1/mac2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_fullyserial/p1/a1/mac2
+# ** Fatal: (vsim-3421) Value 15 is out of range 0 to 12.
+#    Time: 50 ns  Iteration: 2  Process: /tb_fullyserial/p1/d1/line__36 File: /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd
+# Fatal error in Block d1 at /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd 36 Block d1
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd 36 Block d1
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd 36 Block d1
+# 
+run -continue
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd 36 Block d1
+# 

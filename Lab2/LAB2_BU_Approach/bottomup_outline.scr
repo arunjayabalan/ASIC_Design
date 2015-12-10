@@ -1,0 +1,72 @@
+#Remove all Design
+remove_design -all
+
+#/* Load Traget technology files */
+source ./synopsys_dc.setup
+
+#/* compile each subblock independently */
+
+#Compile U_delayline
+read_file -format vhdl -lib WORK "./SOURCE/mics.vhd"
+read_file -format vhdl -lib WORK "./SOURCE/SRAM.vhd"
+read_file -format vhdl -lib WORK "./SOURCE/DelayLine_CB.vhd"
+current_design Delayline_CB
+link
+uniquify
+create_clock -name "clk" -period 2 -waveform { 0 1 } {clk};
+#source ./SCRIPTS/Delayline_CB.wscr
+source ./defaults.con
+compile
+
+#Compile u_FIRP
+read_file -format vhdl -lib WORK "./SOURCE/FIR_Processor.vhd"
+current_design FIR_Processor
+link
+uniquify
+create_clock -name "clk" -period 2 -waveform { 0 1 } {clk};
+#source ./SCRIPTS/FIR_Processor.wscr
+source ./defaults.con
+compile
+
+
+#Compile u_ROM
+read_file -format vhdl -lib WORK "./SOURCE/ROM_Process.vhd"
+current_design ROM_Process
+link
+uniquify
+#source ./SCRIPTS/ROM_Process.wscr
+source ./defaults.con
+compile
+
+
+#compile FIR_Toplevel
+read_file -format vhdl -lib WORK "./SOURCE/mics.vhd"
+read_file -format vhdl -lib WORK "./SOURCE/FIR_Toplevel.vhd"
+current_design FIR_Toplevel
+link
+uniquify
+create_clock -name "clk" -period 2 -waveform { 0 1 } {clk};
+source ./defaults.con
+compile
+
+read_saif -input ./SOURCE/top_fir_50samples.saif -instance_name tb_fir
+
+
+#check if the constraints are met
+report_constraint > ./REPORTS/constraints.rep
+report_area > ./REPORTS/report_area.rep
+report_power > ./REPORTS/report_power.rep
+report_timing > ./REPORTS/report_time.rep
+
+#Characterize all the blocks
+characterize -constraint {U_delayline  u_FIRP  u_ROM}
+
+#Save new constraints
+current_design Delayline_CB
+write_script > ./SCRIPTS/Delayline_CB.wscr
+
+current_design FIR_Processor
+write_script > ./SCRIPTS/FIR_Processor.wscr
+
+current_design ROM_Process
+write_script > ./SCRIPTS/ROM_Process.wscr

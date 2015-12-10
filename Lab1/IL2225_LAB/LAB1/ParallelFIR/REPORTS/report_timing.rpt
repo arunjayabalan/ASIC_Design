@@ -1,0 +1,143 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Top_Parallel_FIR
+Version: J-2014.09
+Date   : Sun Nov 15 12:24:43 2015
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: S1/data_reg[0][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: conv_sum_reg[23]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Top_Parallel_FIR   TSMC16K_Lowk_Conservative
+                                           tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  S1/data_reg[0][3]/CP (EDFCNQD1)                         0.00       0.00 r
+  S1/data_reg[0][3]/Q (EDFCNQD1)                          0.14       0.14 f
+  S1/sample_out[0][3] (Shift_register)                    0.00       0.14 f
+  A1/all_samples[0][3] (Arith_Unit)                       0.00       0.14 f
+  A1/MACX_0/sample_in[3] (MAC_0)                          0.00       0.14 f
+  A1/MACX_0/mult_16/a[3] (MAC_0_DW_mult_tc_0)             0.00       0.14 f
+  A1/MACX_0/mult_16/U225/ZN (INVD1)                       0.17       0.30 r
+  A1/MACX_0/mult_16/U218/Z (XOR2D1)                       0.24       0.54 r
+  A1/MACX_0/mult_16/U222/ZN (ND2D1)                       0.15       0.70 f
+  A1/MACX_0/mult_16/U264/ZN (OAI32D0)                     0.19       0.88 r
+  A1/MACX_0/mult_16/U45/S (CMPE22D1)                      0.12       1.00 r
+  A1/MACX_0/mult_16/U44/S (CMPE32D1)                      0.09       1.09 r
+  A1/MACX_0/mult_16/U15/CO (CMPE32D1)                     0.10       1.20 r
+  A1/MACX_0/mult_16/U14/S (CMPE32D1)                      0.09       1.28 r
+  A1/MACX_0/mult_16/product[6] (MAC_0_DW_mult_tc_0)       0.00       1.28 r
+  A1/MACX_0/add_16/A[6] (MAC_0_DW01_add_0)                0.00       1.28 r
+  A1/MACX_0/add_16/U1_6/S (CMPE32D1)                      0.11       1.39 r
+  A1/MACX_0/add_16/SUM[6] (MAC_0_DW01_add_0)              0.00       1.39 r
+  A1/MACX_0/result[6] (MAC_0)                             0.00       1.39 r
+  A1/MACX_1/acc[6] (MAC_12)                               0.00       1.39 r
+  A1/MACX_1/add_16/B[6] (MAC_12_DW01_add_0)               0.00       1.39 r
+  A1/MACX_1/add_16/U1_6/CO (CMPE32D1)                     0.10       1.49 r
+  A1/MACX_1/add_16/U1_7/S (CMPE32D1)                      0.09       1.58 r
+  A1/MACX_1/add_16/SUM[7] (MAC_12_DW01_add_0)             0.00       1.58 r
+  A1/MACX_1/result[7] (MAC_12)                            0.00       1.58 r
+  A1/MACX_2/acc[7] (MAC_11)                               0.00       1.58 r
+  A1/MACX_2/add_16/B[7] (MAC_11_DW01_add_0)               0.00       1.58 r
+  A1/MACX_2/add_16/U1_7/CO (CMPE32D1)                     0.10       1.69 r
+  A1/MACX_2/add_16/U1_8/S (CMPE32D1)                      0.09       1.77 r
+  A1/MACX_2/add_16/SUM[8] (MAC_11_DW01_add_0)             0.00       1.77 r
+  A1/MACX_2/result[8] (MAC_11)                            0.00       1.77 r
+  A1/MACX_3/acc[8] (MAC_10)                               0.00       1.77 r
+  A1/MACX_3/add_16/B[8] (MAC_10_DW01_add_0)               0.00       1.77 r
+  A1/MACX_3/add_16/U1_8/CO (CMPE32D1)                     0.10       1.88 r
+  A1/MACX_3/add_16/U1_9/S (CMPE32D1)                      0.09       1.96 r
+  A1/MACX_3/add_16/SUM[9] (MAC_10_DW01_add_0)             0.00       1.96 r
+  A1/MACX_3/result[9] (MAC_10)                            0.00       1.96 r
+  A1/MACX_4/acc[9] (MAC_9)                                0.00       1.96 r
+  A1/MACX_4/add_16/B[9] (MAC_9_DW01_add_0)                0.00       1.96 r
+  A1/MACX_4/add_16/U1_9/CO (CMPE32D1)                     0.10       2.07 r
+  A1/MACX_4/add_16/U1_10/S (CMPE32D1)                     0.09       2.16 r
+  A1/MACX_4/add_16/SUM[10] (MAC_9_DW01_add_0)             0.00       2.16 r
+  A1/MACX_4/result[10] (MAC_9)                            0.00       2.16 r
+  A1/MACX_5/acc[10] (MAC_8)                               0.00       2.16 r
+  A1/MACX_5/add_16/B[10] (MAC_8_DW01_add_0)               0.00       2.16 r
+  A1/MACX_5/add_16/U1_10/CO (CMPE32D1)                    0.10       2.26 r
+  A1/MACX_5/add_16/U1_11/S (CMPE32D1)                     0.08       2.34 f
+  A1/MACX_5/add_16/SUM[11] (MAC_8_DW01_add_0)             0.00       2.34 f
+  A1/MACX_5/result[11] (MAC_8)                            0.00       2.34 f
+  A1/MACX_6/acc[11] (MAC_7)                               0.00       2.34 f
+  A1/MACX_6/add_16/B[11] (MAC_7_DW01_add_0)               0.00       2.34 f
+  A1/MACX_6/add_16/U1_11/CO (CMPE32D1)                    0.10       2.45 f
+  A1/MACX_6/add_16/U1_12/CO (CMPE32D1)                    0.06       2.51 f
+  A1/MACX_6/add_16/U1_13/CO (CMPE32D1)                    0.06       2.57 f
+  A1/MACX_6/add_16/U1_14/CO (CMPE32D1)                    0.06       2.63 f
+  A1/MACX_6/add_16/U1_15/CO (CMPE32D1)                    0.06       2.69 f
+  A1/MACX_6/add_16/U1_16/CO (CMPE32D1)                    0.06       2.75 f
+  A1/MACX_6/add_16/U1_17/S (CMPE32D1)                     0.08       2.84 r
+  A1/MACX_6/add_16/SUM[17] (MAC_7_DW01_add_0)             0.00       2.84 r
+  A1/MACX_6/result[17] (MAC_7)                            0.00       2.84 r
+  A1/MACX_7/acc[17] (MAC_6)                               0.00       2.84 r
+  A1/MACX_7/add_16/B[17] (MAC_6_DW01_add_0)               0.00       2.84 r
+  A1/MACX_7/add_16/U1_17/CO (CMPE32D1)                    0.10       2.94 r
+  A1/MACX_7/add_16/U1_18/S (CMPE32D1)                     0.09       3.03 r
+  A1/MACX_7/add_16/SUM[18] (MAC_6_DW01_add_0)             0.00       3.03 r
+  A1/MACX_7/result[18] (MAC_6)                            0.00       3.03 r
+  A1/MACX_8/acc[18] (MAC_5)                               0.00       3.03 r
+  A1/MACX_8/add_16/B[18] (MAC_5_DW01_add_0)               0.00       3.03 r
+  A1/MACX_8/add_16/U1_18/CO (CMPE32D1)                    0.10       3.13 r
+  A1/MACX_8/add_16/U1_19/S (CMPE32D1)                     0.09       3.22 r
+  A1/MACX_8/add_16/SUM[19] (MAC_5_DW01_add_0)             0.00       3.22 r
+  A1/MACX_8/result[19] (MAC_5)                            0.00       3.22 r
+  A1/MACX_9/acc[19] (MAC_4)                               0.00       3.22 r
+  A1/MACX_9/add_16/B[19] (MAC_4_DW01_add_0)               0.00       3.22 r
+  A1/MACX_9/add_16/U1_19/CO (CMPE32D1)                    0.10       3.33 r
+  A1/MACX_9/add_16/U1_20/S (CMPE32D1)                     0.09       3.41 r
+  A1/MACX_9/add_16/SUM[20] (MAC_4_DW01_add_0)             0.00       3.41 r
+  A1/MACX_9/result[20] (MAC_4)                            0.00       3.41 r
+  A1/MACX_10/acc[20] (MAC_3)                              0.00       3.41 r
+  A1/MACX_10/add_16/B[20] (MAC_3_DW01_add_0)              0.00       3.41 r
+  A1/MACX_10/add_16/U1_20/CO (CMPE32D1)                   0.10       3.52 r
+  A1/MACX_10/add_16/U1_21/S (CMPE32D1)                    0.09       3.61 r
+  A1/MACX_10/add_16/SUM[21] (MAC_3_DW01_add_0)            0.00       3.61 r
+  A1/MACX_10/result[21] (MAC_3)                           0.00       3.61 r
+  A1/MACX_11/acc[21] (MAC_2)                              0.00       3.61 r
+  A1/MACX_11/add_16/B[21] (MAC_2_DW01_add_0)              0.00       3.61 r
+  A1/MACX_11/add_16/U1_21/CO (CMPE32D1)                   0.10       3.71 r
+  A1/MACX_11/add_16/U1_22/S (CMPE32D1)                    0.09       3.80 r
+  A1/MACX_11/add_16/SUM[22] (MAC_2_DW01_add_0)            0.00       3.80 r
+  A1/MACX_11/result[22] (MAC_2)                           0.00       3.80 r
+  A1/MACX_12/acc[22] (MAC_1)                              0.00       3.80 r
+  A1/MACX_12/add_16/B[22] (MAC_1_DW01_add_0)              0.00       3.80 r
+  A1/MACX_12/add_16/U1_22/CO (CMPE32D1)                   0.10       3.90 r
+  A1/MACX_12/add_16/U1_23/S (CMPE32D1)                    0.08       3.98 r
+  A1/MACX_12/add_16/SUM[23] (MAC_1_DW01_add_0)            0.00       3.98 r
+  A1/MACX_12/result[23] (MAC_1)                           0.00       3.98 r
+  A1/result[23] (Arith_Unit)                              0.00       3.98 r
+  conv_sum_reg[23]/D (DFCNQD1)                            0.00       3.98 r
+  data arrival time                                                  3.98
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  conv_sum_reg[23]/CP (DFCNQD1)                           0.00       5.00 r
+  library setup time                                     -0.03       4.97
+  data required time                                                 4.97
+  --------------------------------------------------------------------------
+  data required time                                                 4.97
+  data arrival time                                                 -3.98
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.99
+
+
+1

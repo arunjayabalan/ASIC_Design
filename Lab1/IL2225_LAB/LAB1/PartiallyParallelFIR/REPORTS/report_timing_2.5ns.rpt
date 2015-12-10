@@ -1,0 +1,87 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Top_Partially_Parallel_FIR
+Version: J-2014.09
+Date   : Mon Nov 16 21:27:38 2015
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: F1/adrR2_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A1/tmp_result2_reg[23]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Top_Partially_Parallel_FIR
+                     TSMC8K_Lowk_Conservative
+                                           tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  F1/adrR2_reg[0]/CP (DFCNQD4)                            0.00       0.00 r
+  F1/adrR2_reg[0]/Q (DFCNQD4)                             0.11       0.11 f
+  F1/delayLineR2[0] (FSM)                                 0.00       0.11 f
+  D1/r_addr2[0] (delay_line)                              0.00       0.11 f
+  D1/U107/Z (AN2D1)                                       0.07       0.17 f
+  D1/U32/Z (AN2D1)                                        0.10       0.27 f
+  D1/U112/ZN (AOI222D0)                                   0.20       0.47 r
+  D1/U206/ZN (ND4D1)                                      0.09       0.56 f
+  D1/sample_out2[0] (delay_line)                          0.00       0.56 f
+  A1/sample2[0] (Arith_Unit)                              0.00       0.56 f
+  A1/MAC2/sample_in[0] (MAC_1)                            0.00       0.56 f
+  A1/MAC2/mult_16/a[0] (MAC_1_DW_mult_tc_0)               0.00       0.56 f
+  A1/MAC2/mult_16/U254/CN (CKND2)                         0.06       0.62 r
+  A1/MAC2/mult_16/U217/ZN (ND2D1)                         0.12       0.74 f
+  A1/MAC2/mult_16/U221/ZN (OAI22D0)                       0.13       0.87 r
+  A1/MAC2/mult_16/U43/S (CMPE42D1)                        0.28       1.15 f
+  A1/MAC2/mult_16/U14/CO (CMPE32D1)                       0.11       1.25 f
+  A1/MAC2/mult_16/U282/S (FA1D1)                          0.08       1.33 f
+  A1/MAC2/mult_16/product[7] (MAC_1_DW_mult_tc_0)         0.00       1.33 f
+  A1/MAC2/add_16/A[7] (MAC_1_DW01_add_0)                  0.00       1.33 f
+  A1/MAC2/add_16/U1_7/CO (FA1D1)                          0.12       1.45 f
+  A1/MAC2/add_16/U1_8/CO (FA1D1)                          0.06       1.51 f
+  A1/MAC2/add_16/U1_9/CO (FA1D1)                          0.06       1.57 f
+  A1/MAC2/add_16/U1_10/CO (FA1D1)                         0.06       1.63 f
+  A1/MAC2/add_16/U1_11/CO (FA1D1)                         0.06       1.69 f
+  A1/MAC2/add_16/U1_12/CO (FA1D1)                         0.06       1.75 f
+  A1/MAC2/add_16/U1_13/CO (FA1D1)                         0.06       1.81 f
+  A1/MAC2/add_16/U1_14/CO (FA1D1)                         0.06       1.87 f
+  A1/MAC2/add_16/U1_15/CO (FA1D1)                         0.06       1.94 f
+  A1/MAC2/add_16/U1_16/CO (FA1D1)                         0.06       2.00 f
+  A1/MAC2/add_16/U1_17/CO (FA1D1)                         0.06       2.06 f
+  A1/MAC2/add_16/U1_18/CO (FA1D1)                         0.06       2.12 f
+  A1/MAC2/add_16/U1_19/CO (CMPE32D2)                      0.06       2.18 f
+  A1/MAC2/add_16/U1_20/CO (CMPE32D2)                      0.06       2.24 f
+  A1/MAC2/add_16/U1_21/CO (CMPE32D2)                      0.06       2.29 f
+  A1/MAC2/add_16/U1_22/CO (CMPE32D2)                      0.06       2.35 f
+  A1/MAC2/add_16/U1_23/Z (XOR3D4)                         0.07       2.42 r
+  A1/MAC2/add_16/SUM[23] (MAC_1_DW01_add_0)               0.00       2.42 r
+  A1/MAC2/result[23] (MAC_1)                              0.00       2.42 r
+  A1/U5/Z (AN2D1)                                         0.05       2.47 r
+  A1/tmp_result2_reg[23]/D (DFCNQD1)                      0.00       2.47 r
+  data arrival time                                                  2.47
+
+  clock clk (rise edge)                                   2.50       2.50
+  clock network delay (ideal)                             0.00       2.50
+  A1/tmp_result2_reg[23]/CP (DFCNQD1)                     0.00       2.50 r
+  library setup time                                     -0.03       2.47
+  data required time                                                 2.47
+  --------------------------------------------------------------------------
+  data required time                                                 2.47
+  data arrival time                                                 -2.47
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

@@ -1,0 +1,508 @@
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN )
+(DATE "Mon Nov 23 20:02:40 2015")
+(VENDOR "Synopsys, Inc")
+(PROGRAM_NAME "vcd2saif")
+(VERSION "J-2014.09")
+(DIVIDER / )
+(TIMESCALE 1 ns)
+(DURATION 220)
+(INSTANCE tb_fir
+  (NET
+    (clk
+      (T0 110) (T1 110) (TX 0)
+      (TC 220) (IG 0)
+    )
+    (dav_wire
+      (T0 181) (T1 39) (TX 0)
+      (TC 37) (IG 0)
+    )
+    (outp_wire\[0\]
+      (T0 172) (T1 48) (TX 0)
+      (TC 2) (IG 0)
+    )
+    (outp_wire\[1\]
+      (T0 196) (T1 24) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (outp_wire\[2\]
+      (T0 196) (T1 24) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (outp_wire\[3\]
+      (T0 73) (T1 147) (TX 0)
+      (TC 3) (IG 0)
+    )
+    (rst_n
+      (T0 0) (T1 220) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (sample_clk
+      (T0 182) (T1 38) (TX 0)
+      (TC 37) (IG 0)
+    )
+    (sample_wire\[0\]
+      (T0 196) (T1 24) (TX 0)
+      (TC 2) (IG 0)
+    )
+    (sample_wire\[1\]
+      (T0 184) (T1 36) (TX 0)
+      (TC 2) (IG 0)
+    )
+    (sample_wire\[2\]
+      (T0 36) (T1 184) (TX 0)
+      (TC 3) (IG 0)
+    )
+    (sample_wire\[3\]
+      (T0 36) (T1 184) (TX 0)
+      (TC 3) (IG 0)
+    )
+  )
+  (INSTANCE u1
+    (NET
+      (clk
+        (T0 110) (T1 110) (TX 0)
+        (TC 220) (IG 0)
+      )
+      (coef_addr_wire\[0\]
+        (T0 148) (T1 72) (TX 0)
+        (TC 72) (IG 0)
+      )
+      (coef_addr_wire\[1\]
+        (T0 148) (T1 72) (TX 0)
+        (TC 36) (IG 0)
+      )
+      (coef_addr_wire\[2\]
+        (T0 184) (T1 36) (TX 0)
+        (TC 36) (IG 0)
+      )
+      (coeficient_out_wire\[0\]
+        (T0 108) (T1 112) (TX 0)
+        (TC 72) (IG 0)
+      )
+      (coeficient_out_wire\[1\]
+        (T0 148) (T1 72) (TX 0)
+        (TC 36) (IG 0)
+      )
+      (coeficient_out_wire\[2\]
+        (T0 184) (T1 36) (TX 0)
+        (TC 36) (IG 0)
+      )
+      (coeficient_out_wire\[3\]
+        (T0 184) (T1 36) (TX 0)
+        (TC 36) (IG 0)
+      )
+      (dav
+        (T0 181) (T1 39) (TX 0)
+        (TC 37) (IG 0)
+      )
+      (dav_wire
+        (T0 181) (T1 39) (TX 0)
+        (TC 37) (IG 0)
+      )
+      (outp\[0\]
+        (T0 172) (T1 48) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (outp\[1\]
+        (T0 196) (T1 24) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (outp\[2\]
+        (T0 196) (T1 24) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (outp\[3\]
+        (T0 73) (T1 147) (TX 0)
+        (TC 3) (IG 0)
+      )
+      (outp_wire\[0\]
+        (T0 172) (T1 48) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (outp_wire\[1\]
+        (T0 196) (T1 24) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (outp_wire\[2\]
+        (T0 196) (T1 24) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (outp_wire\[3\]
+        (T0 73) (T1 147) (TX 0)
+        (TC 3) (IG 0)
+      )
+      (rst_n
+        (T0 0) (T1 220) (TX 0)
+        (TC 0) (IG 0)
+      )
+      (sample\[0\]
+        (T0 196) (T1 24) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (sample\[1\]
+        (T0 184) (T1 36) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (sample\[2\]
+        (T0 36) (T1 184) (TX 0)
+        (TC 3) (IG 0)
+      )
+      (sample\[3\]
+        (T0 36) (T1 184) (TX 0)
+        (TC 3) (IG 0)
+      )
+      (sample_clk
+        (T0 182) (T1 38) (TX 0)
+        (TC 37) (IG 0)
+      )
+      (sample_out_wire\[0\]
+        (T0 196) (T1 24) (TX 0)
+        (TC 12) (IG 0)
+      )
+      (sample_out_wire\[1\]
+        (T0 184) (T1 36) (TX 0)
+        (TC 14) (IG 0)
+      )
+      (sample_out_wire\[2\]
+        (T0 67) (T1 153) (TX 0)
+        (TC 17) (IG 0)
+      )
+      (sample_out_wire\[3\]
+        (T0 67) (T1 153) (TX 0)
+        (TC 17) (IG 0)
+      )
+    )
+    (INSTANCE u_delayline
+      (NET
+        (adrs_wire\[0\]
+          (T0 133) (T1 87) (TX 0)
+          (TC 59) (IG 0)
+        )
+        (adrs_wire\[1\]
+          (T0 130) (T1 90) (TX 0)
+          (TC 30) (IG 0)
+        )
+        (adrs_wire\[2\]
+          (T0 176) (T1 44) (TX 0)
+          (TC 28) (IG 0)
+        )
+        (clk
+          (T0 110) (T1 110) (TX 0)
+          (TC 220) (IG 0)
+        )
+        (rst_n
+          (T0 0) (T1 220) (TX 0)
+          (TC 0) (IG 0)
+        )
+        (rws_wire
+          (T0 38) (T1 182) (TX 0)
+          (TC 38) (IG 0)
+        )
+        (sample\[0\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (sample\[1\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (sample\[2\]
+          (T0 36) (T1 184) (TX 0)
+          (TC 3) (IG 0)
+        )
+        (sample\[3\]
+          (T0 36) (T1 184) (TX 0)
+          (TC 3) (IG 0)
+        )
+        (sample_clk
+          (T0 182) (T1 38) (TX 0)
+          (TC 37) (IG 0)
+        )
+        (sample_out\[0\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 12) (IG 0)
+        )
+        (sample_out\[1\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 14) (IG 0)
+        )
+        (sample_out\[2\]
+          (T0 67) (T1 153) (TX 0)
+          (TC 17) (IG 0)
+        )
+        (sample_out\[3\]
+          (T0 67) (T1 153) (TX 0)
+          (TC 17) (IG 0)
+        )
+        (sample_out_wire\[0\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 12) (IG 0)
+        )
+        (sample_out_wire\[1\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 14) (IG 0)
+        )
+        (sample_out_wire\[2\]
+          (T0 67) (T1 153) (TX 0)
+          (TC 17) (IG 0)
+        )
+        (sample_out_wire\[3\]
+          (T0 67) (T1 153) (TX 0)
+          (TC 17) (IG 0)
+        )
+        (sample_write\[0\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (sample_write\[1\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (sample_write\[2\]
+          (T0 37) (T1 183) (TX 0)
+          (TC 3) (IG 0)
+        )
+        (sample_write\[3\]
+          (T0 37) (T1 183) (TX 0)
+          (TC 3) (IG 0)
+        )
+      )
+      (INSTANCE u30_cbram
+        (NET
+          (addrs\[0\]
+            (T0 133) (T1 87) (TX 0)
+            (TC 59) (IG 0)
+          )
+          (addrs\[1\]
+            (T0 130) (T1 90) (TX 0)
+            (TC 30) (IG 0)
+          )
+          (addrs\[2\]
+            (T0 176) (T1 44) (TX 0)
+            (TC 28) (IG 0)
+          )
+          (inp\[0\]
+            (T0 196) (T1 24) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (inp\[1\]
+            (T0 184) (T1 36) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (inp\[2\]
+            (T0 37) (T1 183) (TX 0)
+            (TC 3) (IG 0)
+          )
+          (inp\[3\]
+            (T0 37) (T1 183) (TX 0)
+            (TC 3) (IG 0)
+          )
+          (outp\[0\]
+            (T0 196) (T1 24) (TX 0)
+            (TC 12) (IG 0)
+          )
+          (outp\[1\]
+            (T0 184) (T1 36) (TX 0)
+            (TC 14) (IG 0)
+          )
+          (outp\[2\]
+            (T0 67) (T1 153) (TX 0)
+            (TC 17) (IG 0)
+          )
+          (outp\[3\]
+            (T0 67) (T1 153) (TX 0)
+            (TC 17) (IG 0)
+          )
+          (rst_n
+            (T0 0) (T1 220) (TX 0)
+            (TC 0) (IG 0)
+          )
+          (rws
+            (T0 38) (T1 182) (TX 0)
+            (TC 38) (IG 0)
+          )
+        )
+      )
+    )
+    (INSTANCE u_firp
+      (NET
+        (accumulator\[0\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 8) (IG 0)
+        )
+        (accumulator\[1\]
+          (T0 204) (T1 16) (TX 0)
+          (TC 8) (IG 0)
+        )
+        (accumulator\[2\]
+          (T0 154) (T1 66) (TX 0)
+          (TC 34) (IG 0)
+        )
+        (accumulator\[3\]
+          (T0 134) (T1 86) (TX 0)
+          (TC 60) (IG 0)
+        )
+        (accumulator\[4\]
+          (T0 186) (T1 34) (TX 0)
+          (TC 28) (IG 0)
+        )
+        (accumulator\[5\]
+          (T0 160) (T1 60) (TX 0)
+          (TC 52) (IG 0)
+        )
+        (accumulator\[6\]
+          (T0 168) (T1 52) (TX 0)
+          (TC 28) (IG 0)
+        )
+        (accumulator\[7\]
+          (T0 220) (T1 0) (TX 0)
+          (TC 0) (IG 0)
+        )
+        (clk
+          (T0 110) (T1 110) (TX 0)
+          (TC 220) (IG 0)
+        )
+        (coef_addr\[0\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 72) (IG 0)
+        )
+        (coef_addr\[1\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coef_addr\[2\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coef_addr_wire\[0\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 72) (IG 0)
+        )
+        (coef_addr_wire\[1\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coef_addr_wire\[2\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coeficient\[0\]
+          (T0 108) (T1 112) (TX 0)
+          (TC 72) (IG 0)
+        )
+        (coeficient\[1\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coeficient\[2\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coeficient\[3\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (dav
+          (T0 181) (T1 39) (TX 0)
+          (TC 37) (IG 0)
+        )
+        (dav_wire
+          (T0 181) (T1 39) (TX 0)
+          (TC 37) (IG 0)
+        )
+        (outp\[0\]
+          (T0 172) (T1 48) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (outp\[1\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (outp\[2\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (outp\[3\]
+          (T0 73) (T1 147) (TX 0)
+          (TC 3) (IG 0)
+        )
+        (outp_wire\[0\]
+          (T0 172) (T1 48) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (outp_wire\[1\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (outp_wire\[2\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (outp_wire\[3\]
+          (T0 73) (T1 147) (TX 0)
+          (TC 3) (IG 0)
+        )
+        (rst_n
+          (T0 0) (T1 220) (TX 0)
+          (TC 0) (IG 0)
+        )
+        (sample_clk
+          (T0 182) (T1 38) (TX 0)
+          (TC 37) (IG 0)
+        )
+        (sample_delay_in\[0\]
+          (T0 196) (T1 24) (TX 0)
+          (TC 12) (IG 0)
+        )
+        (sample_delay_in\[1\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 14) (IG 0)
+        )
+        (sample_delay_in\[2\]
+          (T0 67) (T1 153) (TX 0)
+          (TC 17) (IG 0)
+        )
+        (sample_delay_in\[3\]
+          (T0 67) (T1 153) (TX 0)
+          (TC 17) (IG 0)
+        )
+      )
+    )
+    (INSTANCE u_rom
+      (NET
+        (address\[0\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 72) (IG 0)
+        )
+        (address\[1\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (address\[2\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coeficient_out\[0\]
+          (T0 108) (T1 112) (TX 0)
+          (TC 72) (IG 0)
+        )
+        (coeficient_out\[1\]
+          (T0 148) (T1 72) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coeficient_out\[2\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 36) (IG 0)
+        )
+        (coeficient_out\[3\]
+          (T0 184) (T1 36) (TX 0)
+          (TC 36) (IG 0)
+        )
+      )
+    )
+  )
+)
+)

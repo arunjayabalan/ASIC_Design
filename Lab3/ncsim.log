@@ -1,0 +1,17 @@
+ncsim: 14.10-s004: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /afs/ict.kth.se/pkg/cadence/incisiv/14.10/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm :sample_wire :sample_clk :rst_n :outp_wire :dav_wire :clk
+Created probe 1
+ncsim> run
+Simulation interrupted at 1223918 NS + 14
+ncsim> ...Regained control from SimVision
+-------------------------------------
+
+ncsim> ncsim: Memory Usage - 28.1M program + 27.0M data = 55.1M total
+ncsim: CPU Usage - 0.2s system + 7.3s user = 7.5s total (1727.5s, 0.4% cpu)

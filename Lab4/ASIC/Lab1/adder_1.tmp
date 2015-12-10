@@ -1,0 +1,95 @@
+operation(op0)  {
+	function add;
+	read ALPAREN1RPAREN,ALPAREN2RPAREN;
+	write temp;
+}
+operation(op1)  {
+	function add;
+	read temp,ALPAREN3RPAREN;
+	write temp000001;
+}
+operation(op2)  {
+	function add;
+	read temp000001,ALPAREN4RPAREN;
+	write temp000002;
+}
+operation(op3)  {
+	function add;
+	read temp000002,ALPAREN5RPAREN;
+	write temp000003;
+}
+operation(op4)  {
+	function add;
+	read temp000003,ALPAREN6RPAREN;
+	write temp000004;
+}
+operation(op5)  {
+	function add;
+	read temp000004,ALPAREN7RPAREN;
+	write temp000005;
+}
+operation(op6)  {
+	function add;
+	read temp000005,ALPAREN8RPAREN;
+	write temp000006;
+}
+operation(op7)  {
+	function add;
+	read temp000006,ALPAREN9RPAREN;
+	write temp000007;
+}
+operation(op8)  {
+	function add;
+	read temp000007,ALPAREN10RPAREN;
+	write temp000008;
+}
+operation(op9)  {
+	function add;
+	read temp000008,ALPAREN11RPAREN;
+	write temp000009;
+}
+operation(op10)  {
+	function add;
+	read ALPAREN12RPAREN,temp000009;
+	write temp000010;
+}
+operation(op11)  {
+	function add;
+	read ALPAREN13RPAREN,temp000010;
+	write temp000011;
+}
+operation(op12)  {
+	function add;
+	read ALPAREN14RPAREN,temp000011;
+	write temp000012;
+}
+operation(op13)  {
+	function add;
+	read ALPAREN15RPAREN,temp000012;
+	write temp000013;
+}
+operation(op14)  {
+	function add;
+	read ALPAREN16RPAREN,temp000013;
+	write temp000014;
+}
+operation(op15)  {
+	function add;
+	read ALPAREN17RPAREN,temp000014;
+	write temp000015;
+}
+operation(op16)  {
+	function add;
+	read ALPAREN18RPAREN,temp000015;
+	write temp000016;
+}
+operation(op17)  {
+	function add;
+	read ALPAREN0RPAREN,temp000016;
+	write temp000017;
+}
+operation(op18)  {
+	function add;
+	read ALPAREN19RPAREN,temp000017;
+	write sum;
+}

@@ -1,0 +1,13 @@
+set target_library "tcbn90glt.db"
+set symbol_library "tcbn90g.sdb"
+set link_path "$search_path"
+set synthetic_library "standard.sldb tcbn90g.sdb dw01.sldb dw02.sldb dw03.sldb dw04.sldb dw05.sldb dw06.sldb" 
+
+set link_library "* $target_library $synthetic_library"
+
+
+
+
+
+
+

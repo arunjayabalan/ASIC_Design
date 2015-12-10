@@ -1,0 +1,2 @@
+define worklib /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/INCA_libs/worklib
+include $CDS_INST_DIR/tools/inca/files/cds.lib

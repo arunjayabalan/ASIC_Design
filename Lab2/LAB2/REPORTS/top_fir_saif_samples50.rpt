@@ -1,0 +1,75 @@
+Information: Updating design information... (UID-85)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : FIR_Toplevel_5
+Version: J-2014.09
+Date   : Tue Nov 24 19:26:48 2015
+****************************************
+
+
+Library(s) Used:
+
+    tcbn90gtc (File: /afs/it.kth.se/pkg/synopsys/extra_libraries/standard_cell/TSMC/tcbn90g_110a/Front_End/timing_power/tcbn90g_110a/tcbn90gtc.db)
+
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+FIR_Toplevel_5         TSMC8K_Lowk_Conservative
+                                         tcbn90gtc
+Delayline_CB           ZeroWireload      tcbn90gtc
+FIR_Processor          ZeroWireload      tcbn90gtc
+ROM_Process            ZeroWireload      tcbn90gtc
+SRAM                   ZeroWireload      tcbn90gtc
+Delayline_CB_DW01_inc_0
+                       ZeroWireload      tcbn90gtc
+Delayline_CB_DW01_dec_0
+                       ZeroWireload      tcbn90gtc
+FIR_Processor_DW01_dec_0
+                       ZeroWireload      tcbn90gtc
+FIR_Processor_DW_mult_uns_0
+                       TSMC8K_Lowk_Conservative
+                                         tcbn90gtc
+FIR_Processor_DW01_add_0
+                       ZeroWireload      tcbn90gtc
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 992.6615 uW   (93%)
+  Net Switching Power  =  77.6462 uW    (7%)
+                         ---------
+Total Dynamic Power    =   1.0703 mW  (100%)
+
+Cell Leakage Power     =   8.5920 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.9094        1.8617e-02        4.0401e+03            0.9321  (  86.39%)
+combinational  8.3239e-02        5.9029e-02        4.5519e+03            0.1468  (  13.61%)
+--------------------------------------------------------------------------------------------------
+Total              0.9927 mW     7.7646e-02 mW     8.5920e+03 nW         1.0789 mW
+1

@@ -1,0 +1,62 @@
+# PPCMD 1 
+# sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { M1 M9 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { M1 M9 } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { M1 M9 }
+# 3 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M3 -max_same_layer_jog_length 0.84 -padcore_ring_bottom_layer_limit M1 -set_to_set_distance 25 -skip_via_on_pin Standardcell -stacked_via_top_layer M9 -padcore_ring_top_layer_limit M3 -spacing 0.42 -xleft_offset 25 -merge_stripes_value 0.16 -layer M2 -block_ring_bottom_layer_limit M1 -width 0.42 -nets {VDD VSS} -stacked_via_bottom_layer M1
+# 2 
+# 2 
+# 1 
+# 0 
+# 0 
+# 2 
+# BOX_LIST 
+# 1640 1640 202960 187920 0 
+# 3320 3320 201280 186240 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VSS 840 2 0 56160 201250 50000 0 0 
+# VDD 840 2 0 54480 201250 50000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+
+# PPCMD 3 
+# addRing -skip_via_on_wire_shape Noshape -spacing_bottom 0.42 -width_left 0.42 -width_bottom 0.42 -width_top 0.42 -spacing_top 0.42 -skip_via_on_pin Standardcell -layer_bottom M1 -stacked_via_top_layer M9 -width_right 0.42 -type core_rings -jog_distance 0.16 -offset_bottom 0.16 -layer_top M1 -threshold 0.16 -offset_left 0.16 -spacing_right 0.42 -spacing_left 0.42 -offset_right 0.16 -offset_top 0.16 -layer_right M2 -nets {VDD VSS} -follow core -stacked_via_bottom_layer M1 -layer_left M2
+# 1 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VSS 840 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 102720 2060 102720 188340 
+# END_RING_PT_INFO_LIST 
+# VSS 840 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 2060 95200 203380 95200 
+# END_RING_PT_INFO_LIST 
+# VDD 840 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 102720 3740 102720 186660 
+# END_RING_PT_INFO_LIST 
+# VDD 840 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 3740 95200 201700 95200 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+

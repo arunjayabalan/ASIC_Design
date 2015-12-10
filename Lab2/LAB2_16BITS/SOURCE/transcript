@@ -1,0 +1,624 @@
+# //  ModelSim SE 6.5 Jan 22 2009 Linux 2.6.18-400.el5
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project Parallel_FIR_Test
+# reading /afs/kth.se/pkg/mentor/modelsim/.sys/i386_linux26/6.5/modeltech/linux/../modelsim.ini
+# Loading project FIR_Filter
+# Compile of DelayLine_CB.vhd failed with 1 errors.
+# Compile of FIR_Processor.vhd failed with 1 errors.
+# Compile of FIR_Toplevel.vhd failed with 1 errors.
+# Compile of mics.vhd was successful.
+# Compile of ROM_Process.vhd was successful.
+# Compile of SRAM.vhd was successful.
+# Compile of tb_FIR.vhd failed with 1 errors.
+# 7 compiles, 4 failed with 4 errors. 
+# Compile of DelayLine_CB.vhd was successful.
+# Compile of FIR_Processor.vhd was successful.
+# Compile of FIR_Toplevel.vhd was successful.
+# Compile of mics.vhd was successful.
+# Compile of ROM_Process.vhd was successful.
+# Compile of SRAM.vhd was successful.
+# Compile of tb_FIR.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error. 
+# Compile of tb_FIR.vhd failed with 1 errors.
+# Compile of tb_FIR.vhd was successful.
+# Compile of DelayLine_CB.vhd was successful.
+# Compile of FIR_Processor.vhd was successful.
+# Compile of FIR_Toplevel.vhd was successful.
+# Compile of mics.vhd was successful.
+# Compile of ROM_Process.vhd was successful.
+# Compile of SRAM.vhd was successful.
+# Compile of tb_FIR.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+# Load canceled
+vsim -sdftyp /tb_fir/u1=/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf work.tb_fir
+# vsim -sdftyp /tb_fir/u1=/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf work.tb_fir 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-1946) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(598): Can't resolve SDF pathname "U1" - instance not found.
+# ** Warning: (vopt-1946) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(602): Can't resolve SDF pathname "U1_1_1" - instance not found.
+# ** Warning: (vopt-1946) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(638): Can't resolve SDF pathname "U1_1_10" - instance not found.
+# ** Warning: (vopt-1946) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(642): Can't resolve SDF pathname "U1_1_11" - instance not found.
+# ** Warning: (vopt-1946) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(646): Can't resolve SDF pathname "U1_1_12" - instance not found.
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.math_real(body)
+# Loading work.tb_fir(tb_fir_behavioural)#1
+# Loading work.misc(body)
+# Loading work.fir_toplevel(fir_toplevel_behavioural)#1
+# Loading work.delayline_cb(delayline_cb_behavioural)#1
+# Loading work.sram(sram_behaviour)#1
+# Loading work.fir_processor(fir_processor_behavioural)#1
+# Loading work.rom_process(rom_process_behavioural)#1
+# Loading instances from /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(829): Failed to find INSTANCE 'U10'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(827): Failed to find INSTANCE 'U11'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(823): Failed to find INSTANCE 'U12'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(819): Failed to find INSTANCE 'U13'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(815): Failed to find INSTANCE 'U14'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(811): Failed to find INSTANCE 'U15'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(810): Failed to find INSTANCE 'U16'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(808): Failed to find INSTANCE 'U17'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(806): Failed to find INSTANCE 'U18'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(804): Failed to find INSTANCE 'U19'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(802): Failed to find INSTANCE 'U20'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(800): Failed to find INSTANCE 'U21'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(798): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(796): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(794): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(792): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(790): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(788): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(786): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(784): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(585): Failed to find INSTANCE 'U3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(780): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1395): Failed to find INSTANCE 'U10'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1394): Failed to find INSTANCE 'U11'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1392): Failed to find INSTANCE 'U12'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1390): Failed to find INSTANCE 'U13'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1335): Failed to find INSTANCE 'U14'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1328): Failed to find INSTANCE 'U15'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1324): Failed to find INSTANCE 'U16'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1330): Failed to find INSTANCE 'U17'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1378): Failed to find INSTANCE 'U18'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1377): Failed to find INSTANCE 'U19'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1376): Failed to find INSTANCE 'U20'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1375): Failed to find INSTANCE 'U21'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1372): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1368): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1362): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1359): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1355): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1349): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1346): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1342): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1412): Failed to find INSTANCE 'U3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1336): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1333): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1329): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1323): Failed to find INSTANCE 'U33'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1322): Failed to find INSTANCE 'U34'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1320): Failed to find INSTANCE 'U35'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1318): Failed to find INSTANCE 'U36'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1316): Failed to find INSTANCE 'U37'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1314): Failed to find INSTANCE 'U38'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1409): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1408): Failed to find INSTANCE 'U5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1326): Failed to find INSTANCE 'U6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1402): Failed to find INSTANCE 'U7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1399): Failed to find INSTANCE 'U8'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1396): Failed to find INSTANCE 'U9'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1368): Failed to find INSTANCE '\mem2_reg[0][0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1355): Failed to find INSTANCE '\mem2_reg[0][1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1342): Failed to find INSTANCE '\mem2_reg[0][2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1329): Failed to find INSTANCE '\mem2_reg[0][3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1362): Failed to find INSTANCE '\mem2_reg[1][0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1349): Failed to find INSTANCE '\mem2_reg[1][1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1336): Failed to find INSTANCE '\mem2_reg[1][2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1323): Failed to find INSTANCE '\mem2_reg[1][3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1366): Failed to find INSTANCE '\mem2_reg[2][0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1353): Failed to find INSTANCE '\mem2_reg[2][1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1340): Failed to find INSTANCE '\mem2_reg[2][2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1327): Failed to find INSTANCE '\mem2_reg[2][3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1364): Failed to find INSTANCE '\mem2_reg[3][0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1351): Failed to find INSTANCE '\mem2_reg[3][1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1338): Failed to find INSTANCE '\mem2_reg[3][2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1325): Failed to find INSTANCE '\mem2_reg[3][3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1370): Failed to find INSTANCE '\mem2_reg[4][0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1357): Failed to find INSTANCE '\mem2_reg[4][1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1344): Failed to find INSTANCE '\mem2_reg[4][2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1331): Failed to find INSTANCE '\mem2_reg[4][3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(386): Failed to find INSTANCE '\outp_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(385): Failed to find INSTANCE '\outp_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(384): Failed to find INSTANCE '\outp_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(383): Failed to find INSTANCE '\outp_reg[3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(776): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(772): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(768): Failed to find INSTANCE 'U33'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(764): Failed to find INSTANCE 'U34'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(760): Failed to find INSTANCE 'U35'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(756): Failed to find INSTANCE 'U36'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(818): Failed to find INSTANCE 'U37'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(817): Failed to find INSTANCE 'U38'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(816): Failed to find INSTANCE 'U39'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(837): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(815): Failed to find INSTANCE 'U40'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(752): Failed to find INSTANCE 'U41'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(814): Failed to find INSTANCE 'U42'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(813): Failed to find INSTANCE 'U43'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(812): Failed to find INSTANCE 'U44'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(811): Failed to find INSTANCE 'U45'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(748): Failed to find INSTANCE 'U46'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(744): Failed to find INSTANCE 'U47'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(740): Failed to find INSTANCE 'U48'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(736): Failed to find INSTANCE 'U49'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(658): Failed to find INSTANCE 'U5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(732): Failed to find INSTANCE 'U50'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(728): Failed to find INSTANCE 'U51'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(724): Failed to find INSTANCE 'U52'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(720): Failed to find INSTANCE 'U53'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(716): Failed to find INSTANCE 'U54'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(714): Failed to find INSTANCE 'U55'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(712): Failed to find INSTANCE 'U56'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(710): Failed to find INSTANCE 'U57'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(708): Failed to find INSTANCE 'U58'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(706): Failed to find INSTANCE 'U59'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(639): Failed to find INSTANCE 'U6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(704): Failed to find INSTANCE 'U60'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(702): Failed to find INSTANCE 'U61'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(698): Failed to find INSTANCE 'U62'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(694): Failed to find INSTANCE 'U63'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(690): Failed to find INSTANCE 'U64'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(686): Failed to find INSTANCE 'U65'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(682): Failed to find INSTANCE 'U66'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(678): Failed to find INSTANCE 'U67'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(674): Failed to find INSTANCE 'U68'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(670): Failed to find INSTANCE 'U69'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(835): Failed to find INSTANCE 'U7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(668): Failed to find INSTANCE 'U70'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(664): Failed to find INSTANCE 'U71'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(660): Failed to find INSTANCE 'U72'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(656): Failed to find INSTANCE 'U73'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(652): Failed to find INSTANCE 'U74'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(648): Failed to find INSTANCE 'U75'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(644): Failed to find INSTANCE 'U76'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(640): Failed to find INSTANCE 'U77'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(636): Failed to find INSTANCE 'U78'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(632): Failed to find INSTANCE 'U79'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(833): Failed to find INSTANCE 'U8'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(628): Failed to find INSTANCE 'U80'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(599): Failed to find INSTANCE 'U81'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(624): Failed to find INSTANCE 'U82'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(620): Failed to find INSTANCE 'U83'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(616): Failed to find INSTANCE 'U84'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(612): Failed to find INSTANCE 'U85'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(608): Failed to find INSTANCE 'U86'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(604): Failed to find INSTANCE 'U87'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(600): Failed to find INSTANCE 'U88'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(596): Failed to find INSTANCE 'U89'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(831): Failed to find INSTANCE 'U9'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(594): Failed to find INSTANCE 'U90'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(592): Failed to find INSTANCE 'U91'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(590): Failed to find INSTANCE 'U92'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(588): Failed to find INSTANCE 'U93'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(586): Failed to find INSTANCE 'U94'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(584): Failed to find INSTANCE 'U95'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(583): Failed to find INSTANCE 'U96'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1072): Failed to find INSTANCE '\adrs_wire_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1069): Failed to find INSTANCE '\adrs_wire_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1066): Failed to find INSTANCE '\adrs_wire_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(667): Failed to find INSTANCE '\counter_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(672): Failed to find INSTANCE '\counter_reg[10] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(671): Failed to find INSTANCE '\counter_reg[11] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(681): Failed to find INSTANCE '\counter_reg[12] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(680): Failed to find INSTANCE '\counter_reg[13] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(679): Failed to find INSTANCE '\counter_reg[14] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(678): Failed to find INSTANCE '\counter_reg[15] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(693): Failed to find INSTANCE '\counter_reg[16] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(692): Failed to find INSTANCE '\counter_reg[17] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(691): Failed to find INSTANCE '\counter_reg[18] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(690): Failed to find INSTANCE '\counter_reg[19] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(663): Failed to find INSTANCE '\counter_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(696): Failed to find INSTANCE '\counter_reg[20] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(695): Failed to find INSTANCE '\counter_reg[21] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(694): Failed to find INSTANCE '\counter_reg[22] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(701): Failed to find INSTANCE '\counter_reg[23] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(700): Failed to find INSTANCE '\counter_reg[24] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(699): Failed to find INSTANCE '\counter_reg[25] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(698): Failed to find INSTANCE '\counter_reg[26] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(677): Failed to find INSTANCE '\counter_reg[27] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(676): Failed to find INSTANCE '\counter_reg[28] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(675): Failed to find INSTANCE '\counter_reg[29] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(659): Failed to find INSTANCE '\counter_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(674): Failed to find INSTANCE '\counter_reg[30] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(685): Failed to find INSTANCE '\counter_reg[31] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(684): Failed to find INSTANCE '\counter_reg[3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(683): Failed to find INSTANCE '\counter_reg[4] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(682): Failed to find INSTANCE '\counter_reg[5] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(689): Failed to find INSTANCE '\counter_reg[6] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(688): Failed to find INSTANCE '\counter_reg[7] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(687): Failed to find INSTANCE '\counter_reg[8] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(686): Failed to find INSTANCE '\counter_reg[9] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(597): Failed to find INSTANCE '\pointer_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(637): Failed to find INSTANCE '\pointer_reg[10] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(641): Failed to find INSTANCE '\pointer_reg[11] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(645): Failed to find INSTANCE '\pointer_reg[12] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(649): Failed to find INSTANCE '\pointer_reg[13] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(653): Failed to find INSTANCE '\pointer_reg[14] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(717): Failed to find INSTANCE '\pointer_reg[15] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(721): Failed to find INSTANCE '\pointer_reg[16] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(725): Failed to find INSTANCE '\pointer_reg[17] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(729): Failed to find INSTANCE '\pointer_reg[18] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(733): Failed to find INSTANCE '\pointer_reg[19] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(601): Failed to find INSTANCE '\pointer_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(737): Failed to find INSTANCE '\pointer_reg[20] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(741): Failed to find INSTANCE '\pointer_reg[21] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(745): Failed to find INSTANCE '\pointer_reg[22] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(749): Failed to find INSTANCE '\pointer_reg[23] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(753): Failed to find INSTANCE '\pointer_reg[24] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(757): Failed to find INSTANCE '\pointer_reg[25] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(761): Failed to find INSTANCE '\pointer_reg[26] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(765): Failed to find INSTANCE '\pointer_reg[27] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(769): Failed to find INSTANCE '\pointer_reg[28] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(773): Failed to find INSTANCE '\pointer_reg[29] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(605): Failed to find INSTANCE '\pointer_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(777): Failed to find INSTANCE '\pointer_reg[30] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(781): Failed to find INSTANCE '\pointer_reg[31] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(609): Failed to find INSTANCE '\pointer_reg[3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(613): Failed to find INSTANCE '\pointer_reg[4] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(617): Failed to find INSTANCE '\pointer_reg[5] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(621): Failed to find INSTANCE '\pointer_reg[6] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(625): Failed to find INSTANCE '\pointer_reg[7] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(629): Failed to find INSTANCE '\pointer_reg[8] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(633): Failed to find INSTANCE '\pointer_reg[9] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1075): Failed to find INSTANCE '\sample_write_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1079): Failed to find INSTANCE '\sample_write_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1083): Failed to find INSTANCE '\sample_write_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1087): Failed to find INSTANCE '\sample_write_reg[3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(598): Failed to find INSTANCE 'add_78'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(598): Failed to find INSTANCE 'U1'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(602): Failed to find INSTANCE 'U1_1_1'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(638): Failed to find INSTANCE 'U1_1_10'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(642): Failed to find INSTANCE 'U1_1_11'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(646): Failed to find INSTANCE 'U1_1_12'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(650): Failed to find INSTANCE 'U1_1_13'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(654): Failed to find INSTANCE 'U1_1_14'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(718): Failed to find INSTANCE 'U1_1_15'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(722): Failed to find INSTANCE 'U1_1_16'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(726): Failed to find INSTANCE 'U1_1_17'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(730): Failed to find INSTANCE 'U1_1_18'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(734): Failed to find INSTANCE 'U1_1_19'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(606): Failed to find INSTANCE 'U1_1_2'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(738): Failed to find INSTANCE 'U1_1_20'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(742): Failed to find INSTANCE 'U1_1_21'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(746): Failed to find INSTANCE 'U1_1_22'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(750): Failed to find INSTANCE 'U1_1_23'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(754): Failed to find INSTANCE 'U1_1_24'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(758): Failed to find INSTANCE 'U1_1_25'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(762): Failed to find INSTANCE 'U1_1_26'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(766): Failed to find INSTANCE 'U1_1_27'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(770): Failed to find INSTANCE 'U1_1_28'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(774): Failed to find INSTANCE 'U1_1_29'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(610): Failed to find INSTANCE 'U1_1_3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(778): Failed to find INSTANCE 'U1_1_30'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(614): Failed to find INSTANCE 'U1_1_4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(618): Failed to find INSTANCE 'U1_1_5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(622): Failed to find INSTANCE 'U1_1_6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(626): Failed to find INSTANCE 'U1_1_7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(630): Failed to find INSTANCE 'U1_1_8'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(634): Failed to find INSTANCE 'U1_1_9'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(782): Failed to find INSTANCE 'U2'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1091): Failed to find INSTANCE 'rws_wire_reg'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(584): Failed to find INSTANCE 'sub_67'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1123): Failed to find INSTANCE 'U1'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(668): Failed to find INSTANCE 'U10'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(590): Failed to find INSTANCE 'U11'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(588): Failed to find INSTANCE 'U12'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(586): Failed to find INSTANCE 'U13'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(806): Failed to find INSTANCE 'U14'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1220): Failed to find INSTANCE 'U15'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(804): Failed to find INSTANCE 'U16'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(594): Failed to find INSTANCE 'U17'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(835): Failed to find INSTANCE 'U18'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1210): Failed to find INSTANCE 'U19'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1109): Failed to find INSTANCE 'U2'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(808): Failed to find INSTANCE 'U20'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1205): Failed to find INSTANCE 'U21'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(833): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1200): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(802): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1195): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(800): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1190): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(798): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1185): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1113): Failed to find INSTANCE 'U3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(796): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1180): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(794): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1175): Failed to find INSTANCE 'U33'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(792): Failed to find INSTANCE 'U34'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1170): Failed to find INSTANCE 'U35'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(790): Failed to find INSTANCE 'U36'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1165): Failed to find INSTANCE 'U37'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(584): Failed to find INSTANCE 'U38'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(788): Failed to find INSTANCE 'U39'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1201): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1157): Failed to find INSTANCE 'U40'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(786): Failed to find INSTANCE 'U41'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1152): Failed to find INSTANCE 'U42'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(784): Failed to find INSTANCE 'U43'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1147): Failed to find INSTANCE 'U44'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(714): Failed to find INSTANCE 'U45'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1142): Failed to find INSTANCE 'U46'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(712): Failed to find INSTANCE 'U47'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1137): Failed to find INSTANCE 'U48'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(710): Failed to find INSTANCE 'U49'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1211): Failed to find INSTANCE 'U5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1132): Failed to find INSTANCE 'U50'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(708): Failed to find INSTANCE 'U51'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1127): Failed to find INSTANCE 'U52'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(831): Failed to find INSTANCE 'U53'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1122): Failed to find INSTANCE 'U54'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(706): Failed to find INSTANCE 'U55'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1117): Failed to find INSTANCE 'U56'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(829): Failed to find INSTANCE 'U57'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1112): Failed to find INSTANCE 'U58'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1110): Failed to find INSTANCE 'U59'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(592): Failed to find INSTANCE 'U6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1108): Failed to find INSTANCE 'U60'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1106): Failed to find INSTANCE 'U61'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1104): Failed to find INSTANCE 'U62'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1102): Failed to find INSTANCE 'U63'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1100): Failed to find INSTANCE 'U64'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1098): Failed to find INSTANCE 'U65'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1096): Failed to find INSTANCE 'U66'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(1094): Failed to find INSTANCE 'U67'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(704): Failed to find INSTANCE 'U7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(827): Failed to find INSTANCE 'U8'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(702): Failed to find INSTANCE 'U9'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(85): Failed to find INSTANCE 'CURRENT_STATE_reg'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(161): Failed to find INSTANCE 'U10'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(159): Failed to find INSTANCE 'U11'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(157): Failed to find INSTANCE 'U12'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(40): Failed to find INSTANCE 'U13'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(154): Failed to find INSTANCE 'U14'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(152): Failed to find INSTANCE 'U15'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(150): Failed to find INSTANCE 'U16'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(149): Failed to find INSTANCE 'U17'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(147): Failed to find INSTANCE 'U18'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(145): Failed to find INSTANCE 'U19'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(143): Failed to find INSTANCE 'U20'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(141): Failed to find INSTANCE 'U21'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(139): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(137): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(135): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(133): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(131): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(129): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(127): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(125): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(28): Failed to find INSTANCE 'U3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(123): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(121): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(119): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(117): Failed to find INSTANCE 'U33'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(115): Failed to find INSTANCE 'U34'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(113): Failed to find INSTANCE 'U35'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(111): Failed to find INSTANCE 'U36'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(109): Failed to find INSTANCE 'U37'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(36): Failed to find INSTANCE 'U38'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(46): Failed to find INSTANCE 'U39'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(173): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(57): Failed to find INSTANCE 'U40'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(60): Failed to find INSTANCE 'U41'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(59): Failed to find INSTANCE 'U42'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(58): Failed to find INSTANCE 'U43'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(87): Failed to find INSTANCE 'U44'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(85): Failed to find INSTANCE 'U45'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(83): Failed to find INSTANCE 'U46'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(81): Failed to find INSTANCE 'U47'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(71): Failed to find INSTANCE 'U48'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(73): Failed to find INSTANCE 'U49'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(171): Failed to find INSTANCE 'U5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(69): Failed to find INSTANCE 'U50'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(65): Failed to find INSTANCE 'U51'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(61): Failed to find INSTANCE 'U52'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(57): Failed to find INSTANCE 'U53'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(55): Failed to find INSTANCE 'U54'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(53): Failed to find INSTANCE 'U55'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(51): Failed to find INSTANCE 'U56'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(49): Failed to find INSTANCE 'U57'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(46): Failed to find INSTANCE 'U58'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(42): Failed to find INSTANCE 'U59'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(169): Failed to find INSTANCE 'U6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(41): Failed to find INSTANCE 'U60'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(39): Failed to find INSTANCE 'U61'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(37): Failed to find INSTANCE 'U62'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(35): Failed to find INSTANCE 'U63'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(33): Failed to find INSTANCE 'U64'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(31): Failed to find INSTANCE 'U65'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(29): Failed to find INSTANCE 'U66'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(27): Failed to find INSTANCE 'U67'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(167): Failed to find INSTANCE 'U7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(165): Failed to find INSTANCE 'U8'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(163): Failed to find INSTANCE 'U9'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(175): Failed to find INSTANCE '\accumulator_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(179): Failed to find INSTANCE '\accumulator_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(183): Failed to find INSTANCE '\accumulator_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(187): Failed to find INSTANCE '\accumulator_reg[3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(314): Failed to find INSTANCE '\accumulator_reg[4] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(317): Failed to find INSTANCE '\accumulator_reg[5] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(320): Failed to find INSTANCE '\accumulator_reg[6] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(323): Failed to find INSTANCE '\accumulator_reg[7] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(18): Failed to find INSTANCE '\coef_addr_wire_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(19): Failed to find INSTANCE '\coef_addr_wire_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(22): Failed to find INSTANCE '\coef_addr_wire_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(77): Failed to find INSTANCE '\counter_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(80): Failed to find INSTANCE '\counter_reg[10] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(79): Failed to find INSTANCE '\counter_reg[11] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(76): Failed to find INSTANCE '\counter_reg[12] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(75): Failed to find INSTANCE '\counter_reg[13] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(74): Failed to find INSTANCE '\counter_reg[14] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(73): Failed to find INSTANCE '\counter_reg[15] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(68): Failed to find INSTANCE '\counter_reg[16] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(67): Failed to find INSTANCE '\counter_reg[17] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(66): Failed to find INSTANCE '\counter_reg[18] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(65): Failed to find INSTANCE '\counter_reg[19] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(64): Failed to find INSTANCE '\counter_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(63): Failed to find INSTANCE '\counter_reg[20] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(62): Failed to find INSTANCE '\counter_reg[21] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(61): Failed to find INSTANCE '\counter_reg[22] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(105): Failed to find INSTANCE '\counter_reg[23] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(104): Failed to find INSTANCE '\counter_reg[24] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(103): Failed to find INSTANCE '\counter_reg[25] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(102): Failed to find INSTANCE '\counter_reg[26] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(93): Failed to find INSTANCE '\counter_reg[27] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(92): Failed to find INSTANCE '\counter_reg[28] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(91): Failed to find INSTANCE '\counter_reg[29] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(83): Failed to find INSTANCE '\counter_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(90): Failed to find INSTANCE '\counter_reg[30] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(97): Failed to find INSTANCE '\counter_reg[31] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(96): Failed to find INSTANCE '\counter_reg[3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(95): Failed to find INSTANCE '\counter_reg[4] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(94): Failed to find INSTANCE '\counter_reg[5] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(101): Failed to find INSTANCE '\counter_reg[6] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(100): Failed to find INSTANCE '\counter_reg[7] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(99): Failed to find INSTANCE '\counter_reg[8] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(98): Failed to find INSTANCE '\counter_reg[9] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(175): Failed to find INSTANCE '\outp_wire_reg[0] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(179): Failed to find INSTANCE '\outp_wire_reg[1] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(183): Failed to find INSTANCE '\outp_wire_reg[2] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(187): Failed to find INSTANCE '\outp_wire_reg[3] '.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(35): Failed to find INSTANCE 'add_115'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(328): Failed to find INSTANCE 'U1'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(154): Failed to find INSTANCE 'U1_1'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(152): Failed to find INSTANCE 'U1_2'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(150): Failed to find INSTANCE 'U1_3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(165): Failed to find INSTANCE 'U1_4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(163): Failed to find INSTANCE 'U1_5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(161): Failed to find INSTANCE 'U1_6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(119): Failed to find INSTANCE 'U1_7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(35): Failed to find INSTANCE 'U2'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(191): Failed to find INSTANCE 'dav_wire_reg'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(327): Failed to find INSTANCE 'mult_115'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(398): Failed to find INSTANCE 'U10'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(395): Failed to find INSTANCE 'U11'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(393): Failed to find INSTANCE 'U12'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(391): Failed to find INSTANCE 'U13'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(330): Failed to find INSTANCE 'U2'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(345): Failed to find INSTANCE 'U3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(342): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(353): Failed to find INSTANCE 'U40'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(355): Failed to find INSTANCE 'U41'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(357): Failed to find INSTANCE 'U42'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(351): Failed to find INSTANCE 'U43'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(375): Failed to find INSTANCE 'U44'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(368): Failed to find INSTANCE 'U45'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(360): Failed to find INSTANCE 'U46'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(352): Failed to find INSTANCE 'U47'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(327): Failed to find INSTANCE 'U48'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(379): Failed to find INSTANCE 'U49'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(339): Failed to find INSTANCE 'U5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(377): Failed to find INSTANCE 'U50'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(375): Failed to find INSTANCE 'U51'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(373): Failed to find INSTANCE 'U52'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(371): Failed to find INSTANCE 'U53'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(369): Failed to find INSTANCE 'U54'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(367): Failed to find INSTANCE 'U55'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(365): Failed to find INSTANCE 'U56'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(363): Failed to find INSTANCE 'U57'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(361): Failed to find INSTANCE 'U58'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(359): Failed to find INSTANCE 'U59'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(336): Failed to find INSTANCE 'U6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(357): Failed to find INSTANCE 'U60'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(355): Failed to find INSTANCE 'U61'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(353): Failed to find INSTANCE 'U62'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(351): Failed to find INSTANCE 'U63'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(333): Failed to find INSTANCE 'U7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(403): Failed to find INSTANCE 'U8'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(400): Failed to find INSTANCE 'U9'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(27): Failed to find INSTANCE 'sub_79'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(442): Failed to find INSTANCE 'U1'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(33): Failed to find INSTANCE 'U10'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(55): Failed to find INSTANCE 'U11'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(31): Failed to find INSTANCE 'U12'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(53): Failed to find INSTANCE 'U13'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(147): Failed to find INSTANCE 'U14'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(549): Failed to find INSTANCE 'U15'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(145): Failed to find INSTANCE 'U16'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(81): Failed to find INSTANCE 'U17'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(171): Failed to find INSTANCE 'U18'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(539): Failed to find INSTANCE 'U19'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(438): Failed to find INSTANCE 'U2'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(143): Failed to find INSTANCE 'U20'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(534): Failed to find INSTANCE 'U21'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(169): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(529): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(141): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(524): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(139): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(519): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(137): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(514): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(452): Failed to find INSTANCE 'U3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(135): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(509): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(133): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(504): Failed to find INSTANCE 'U33'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(131): Failed to find INSTANCE 'U34'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(499): Failed to find INSTANCE 'U35'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(129): Failed to find INSTANCE 'U36'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(494): Failed to find INSTANCE 'U37'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(29): Failed to find INSTANCE 'U38'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(127): Failed to find INSTANCE 'U39'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(540): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(486): Failed to find INSTANCE 'U40'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(125): Failed to find INSTANCE 'U41'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(481): Failed to find INSTANCE 'U42'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(123): Failed to find INSTANCE 'U43'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(476): Failed to find INSTANCE 'U44'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(117): Failed to find INSTANCE 'U45'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(471): Failed to find INSTANCE 'U46'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(115): Failed to find INSTANCE 'U47'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(466): Failed to find INSTANCE 'U48'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(113): Failed to find INSTANCE 'U49'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(530): Failed to find INSTANCE 'U5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(461): Failed to find INSTANCE 'U50'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(111): Failed to find INSTANCE 'U51'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(456): Failed to find INSTANCE 'U52'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(159): Failed to find INSTANCE 'U53'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(451): Failed to find INSTANCE 'U54'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(121): Failed to find INSTANCE 'U55'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(446): Failed to find INSTANCE 'U56'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(157): Failed to find INSTANCE 'U57'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(441): Failed to find INSTANCE 'U58'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(439): Failed to find INSTANCE 'U59'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(27): Failed to find INSTANCE 'U6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(437): Failed to find INSTANCE 'U60'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(435): Failed to find INSTANCE 'U61'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(433): Failed to find INSTANCE 'U62'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(431): Failed to find INSTANCE 'U63'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(429): Failed to find INSTANCE 'U64'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(427): Failed to find INSTANCE 'U65'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(425): Failed to find INSTANCE 'U66'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(423): Failed to find INSTANCE 'U67'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(109): Failed to find INSTANCE 'U7'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(167): Failed to find INSTANCE 'U8'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(49): Failed to find INSTANCE 'U9'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(25): Failed to find INSTANCE 'U3'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(22): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(21): Failed to find INSTANCE 'U5'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(19): Failed to find INSTANCE 'U6'.
+# ** Error: (vsim-SDF-3250) /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf(18): Failed to find INSTANCE 'U7'.
+# ** Error: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Error loading design

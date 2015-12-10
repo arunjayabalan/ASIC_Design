@@ -1,0 +1,94 @@
+###################################################################
+
+# Created by write_script -format dctcl on Tue Dec  8 12:45:25 2015
+
+###################################################################
+
+# Set the current_design #
+current_design Delayline_CB
+
+set_units -time ns -resistance kOhm -capacitance pF -voltage V -current mA
+set_operating_conditions NCCOM -library tcbn90gtc
+set_wire_load_mode top
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc
+set_wire_load_selection_group WireAreaForZero
+set_local_link_library {tcbn90gtc.db}
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports rst_n]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports clk]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports sample_clk]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample[3]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample[2]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample[1]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample[0]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_out[3]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_out[2]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_out[1]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_out[0]}]
+set_connection_class "default" [get_ports rst_n]
+set_connection_class "default" [get_ports clk]
+set_connection_class "default" [get_ports sample_clk]
+set_connection_class "default" [get_ports {sample[3]}]
+set_connection_class "default" [get_ports {sample[2]}]
+set_connection_class "default" [get_ports {sample[1]}]
+set_connection_class "default" [get_ports {sample[0]}]
+set_connection_class "default" [get_ports {sample_out[3]}]
+set_connection_class "default" [get_ports {sample_out[2]}]
+set_connection_class "default" [get_ports {sample_out[1]}]
+set_connection_class "default" [get_ports {sample_out[0]}]
+set_fanout_load 1 [get_ports {sample_out[3]}]
+set_fanout_load 1 [get_ports {sample_out[2]}]
+set_fanout_load 1 [get_ports {sample_out[1]}]
+set_fanout_load 1 [get_ports {sample_out[0]}]
+set_port_fanout_number 3 [get_ports rst_n]
+set_port_fanout_number 49 [get_ports clk]
+set_port_fanout_number 1 [get_ports sample_clk]
+set_load -pin_load 0.0049 [get_ports rst_n]
+set_load -pin_load 0.0788 [get_ports clk]
+set_load -pin_load 0.0023 [get_ports sample_clk]
+set_load -pin_load 0.0023 [get_ports {sample_out[3]}]
+set_load -pin_load 0.0023 [get_ports {sample_out[2]}]
+set_load -pin_load 0.0023 [get_ports {sample_out[1]}]
+set_load -pin_load 0.0023 [get_ports {sample_out[0]}]
+set_max_transition 0.712 [get_ports rst_n]
+set_max_transition 0.712 [get_ports sample_clk]
+set_max_transition 0.712 [get_ports {sample_out[3]}]
+set_max_transition 0.712 [get_ports {sample_out[2]}]
+set_max_transition 0.712 [get_ports {sample_out[1]}]
+set_max_transition 0.712 [get_ports {sample_out[0]}]
+create_clock [get_ports clk]  -period 2  -waveform {0 1}
+set_input_delay -clock clk  -rise 0  [get_ports clk]
+set_input_delay -clock clk  -clock_fall  -fall 0  -add_delay  [get_ports clk]
+set_input_delay 0  [get_ports {sample[0]}]
+set_input_delay 0  [get_ports {sample[1]}]
+set_input_delay 0  [get_ports {sample[2]}]
+set_input_delay 0  [get_ports {sample[3]}]
+set_input_delay 0  [get_ports sample_clk]
+set_input_delay 0  [get_ports rst_n]
+set_output_delay -clock clk  -max -rise 0.855106  [get_ports {sample_out[0]}]
+set_output_delay -clock clk  -max -fall 0.824462  [get_ports {sample_out[0]}]
+set_output_delay -clock clk  -min -rise 0.23395  [get_ports {sample_out[0]}]
+set_output_delay -clock clk  -min -fall 0.205424  [get_ports {sample_out[0]}]
+set_output_delay -clock clk  -max -rise 0.854185  [get_ports {sample_out[1]}]
+set_output_delay -clock clk  -max -fall 0.827039  [get_ports {sample_out[1]}]
+set_output_delay -clock clk  -min -rise 0.316875  [get_ports {sample_out[1]}]
+set_output_delay -clock clk  -min -fall 0.306678  [get_ports {sample_out[1]}]
+set_output_delay -clock clk  -max -rise 0.827473  [get_ports {sample_out[2]}]
+set_output_delay -clock clk  -max -fall 0.794902  [get_ports {sample_out[2]}]
+set_output_delay -clock clk  -min -rise 0.348821  [get_ports {sample_out[2]}]
+set_output_delay -clock clk  -min -fall 0.342508  [get_ports {sample_out[2]}]
+set_output_delay -clock clk  -max -rise 0.824062  [get_ports {sample_out[3]}]
+set_output_delay -clock clk  -max -fall 0.797194  [get_ports {sample_out[3]}]
+set_output_delay -clock clk  -min -rise 0.348788  [get_ports {sample_out[3]}]
+set_output_delay -clock clk  -min -fall 0.342472  [get_ports {sample_out[3]}]
+1

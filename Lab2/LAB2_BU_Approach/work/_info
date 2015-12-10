@@ -1,0 +1,251 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2
+T_opt
+Z1 VRHSFBgzIdh>T9;OD5fBT51
+Z2 04 6 18 work tb_fir tb_fir_behavioural 1
+Z3 =1-00238bf41ce4-56535963-18883-2f89
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 V;ad=ag6XBoj3M?P;@f_Pi1
+R2
+Z8 =1-00238bf41ce4-565359f7-1deae-3040
+Z9 o-quiet -auto_acc_if_foreign -work work -sdftyp /tb_FIR/u1=/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf -suppress 1948
+Z10 n@_opt1
+R6
+T_opt2
+V<AC@Ih[?_WUQCA6?zE^5D3
+R2
+Z11 =1-00238bf41ce4-5654a977-3451a-35f0
+Z12 o-quiet -auto_acc_if_foreign -work work -sdftyp /tb_fir/u1=/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/DB/main.sdf -suppress 1948
+Z13 n@_opt2
+R6
+Edelayline_cb
+Z14 w1289481891
+Z15 DPx4 work 4 misc 0 22 ?aMfJEn1C<@F@Vm8B>f]D2
+Z16 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z18 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z19 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/DelayLine_CB.vhd
+Z20 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/DelayLine_CB.vhd
+l0
+L10
+Z21 V0oZ<Loa9GkAW^mZ:GVZIg1
+Z22 OE;C;6.5;42
+32
+Z23 o-work work -2002 -explicit
+Z24 tExplicit 1
+Z25 !s100 c6RaXiTi`jd]@MiegASA=2
+Adelayline_cb_behavioural
+R15
+R16
+R17
+R18
+Z26 DEx4 work 12 delayline_cb 0 22 0oZ<Loa9GkAW^mZ:GVZIg1
+l39
+L21
+Z27 V]ZcjU3TJRIZa:]bWL^UfK0
+R22
+32
+Z28 Mx4 4 ieee 14 std_logic_1164
+Z29 Mx3 4 ieee 18 std_logic_unsigned
+Z30 Mx2 4 ieee 15 std_logic_arith
+Z31 Mx1 4 work 4 misc
+R23
+R24
+Z32 !s100 ]7HL7WFh<XW1e3=QE1ke<1
+Efir_processor
+Z33 w1289569325
+R15
+R16
+R17
+R18
+Z34 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/FIR_Processor.vhd
+Z35 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/FIR_Processor.vhd
+l0
+L9
+Z36 VCe`dJ[ge;?FeY[cX?EGTL0
+R22
+32
+R23
+R24
+Z37 !s100 WgHzAQR8PZe@cHZVYc[SW3
+Afir_processor_behavioural
+R15
+R16
+R17
+R18
+Z38 DEx4 work 13 fir_processor 0 22 Ce`dJ[ge;?FeY[cX?EGTL0
+l36
+L25
+Z39 V@YagdMI16PmceV>8mM7J<3
+R22
+32
+R28
+R29
+R30
+R31
+R23
+R24
+Z40 !s100 D?dGAD;D6JX1oGRPZAM0K2
+Efir_toplevel
+Z41 w1287763699
+R15
+R16
+R17
+R18
+Z42 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/FIR_Toplevel.vhd
+Z43 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/FIR_Toplevel.vhd
+l0
+L9
+Z44 VS22MjYTLm8?9>;73Ge`i22
+R22
+32
+R23
+R24
+Z45 !s100 hkg`fLj7^=Nk?ik=g@@X;0
+Afir_toplevel_behavioural
+R15
+R16
+R17
+R18
+Z46 DEx4 work 12 fir_toplevel 0 22 S22MjYTLm8?9>;73Ge`i22
+l60
+L22
+Z47 Vh58maMnenKkPiZhn=jCe?2
+R22
+32
+R28
+R29
+R30
+R31
+R23
+R24
+Z48 !s100 D6E;7@e8fREL>Bg[DgWa:0
+Pmisc
+Z49 w1202146702
+Z50 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/mics.vhd
+Z51 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/mics.vhd
+l0
+L1
+Z52 V?aMfJEn1C<@F@Vm8B>f]D2
+R22
+32
+b1
+R23
+R24
+Z53 !s100 I_k2<7dHHRRQi;EHNhS9z3
+Bbody
+Z54 DBx4 work 4 misc 0 22 ?aMfJEn1C<@F@Vm8B>f]D2
+l0
+L12
+Z55 V?54Y;me4zOd>9;?=M8jgi3
+R22
+32
+R23
+R24
+nbody
+Z56 !s100 6LhjRi1>gTI=8Jnj;mDGI3
+Erom_process
+Z57 w1289481020
+R16
+R17
+R18
+R15
+Z58 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/ROM_Process.vhd
+Z59 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/ROM_Process.vhd
+l0
+L11
+Z60 VkEk^m3enPU`BRJzkk]a4d1
+R22
+32
+R23
+R24
+Z61 !s100 [oO=8?A<?USnE_NaLiTdM1
+Arom_process_behavioural
+R16
+R17
+R18
+R15
+Z62 DEx4 work 11 rom_process 0 22 kEk^m3enPU`BRJzkk]a4d1
+l33
+L21
+Z63 V8o>ESjQiAY0efh4cV0?Qk2
+R22
+32
+Z64 Mx4 4 work 4 misc
+Z65 Mx3 4 ieee 14 std_logic_1164
+Z66 Mx2 4 ieee 18 std_logic_unsigned
+Z67 Mx1 4 ieee 15 std_logic_arith
+R23
+R24
+Z68 !s100 J93oiV:@YBiDSaMZ9dbY]3
+Esram
+Z69 w1289569182
+R15
+R16
+R18
+Z70 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/SRAM.vhd
+Z71 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/SRAM.vhd
+l0
+L8
+Z72 VeU[M[:a;1Q?ZD=4_C2`X^2
+R22
+32
+R23
+R24
+Z73 !s100 hJ`BcY`09VHB9<cc8GOz10
+Asram_behaviour
+R15
+R16
+R18
+Z74 DEx4 work 4 sram 0 22 eU[M[:a;1Q?ZD=4_C2`X^2
+l29
+L23
+Z75 VBOT4>3mzbl<O;_;4GPi=Q1
+R22
+32
+R65
+R30
+R31
+R23
+R24
+Z76 !s100 RCX<NTHdMK]lQWz>RR:fd1
+Etb_fir
+Z77 w1448388904
+Z78 DPx4 ieee 9 math_real 0 22 zjAF7SKfg_RPI0GT^n1N`1
+R16
+R17
+R18
+Z79 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/tb_FIR.vhd
+Z80 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab2/LAB2/SOURCE/tb_FIR.vhd
+l0
+L7
+Z81 VCQ453jkB^aC]]N8kDXLWa2
+R22
+32
+R23
+R24
+Z82 !s100 oWX``Zm^6RfLcNnz:5LOb0
+Atb_fir_behavioural
+R78
+R16
+R17
+R18
+Z83 DEx4 work 6 tb_fir 0 22 CQ453jkB^aC]]N8kDXLWa2
+l29
+L10
+Z84 VJ6nTRU6Do9Vofj;:<maBm1
+R22
+32
+R28
+R29
+R30
+Z85 Mx1 4 ieee 9 math_real
+R23
+R24
+Z86 !s100 YYD7EmFbUOi1M_0fJZKad1

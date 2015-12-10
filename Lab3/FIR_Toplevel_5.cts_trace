@@ -1,0 +1,201 @@
+
+
+
+
+
+Tracing Clock clk
+
+****** Clock Tree (clk) Structure
+Nr. Subtrees                   : 3
+Nr. Sinks                      : 123
+Nr.          Rising  Sync Pins : 123
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+Nr. Unsync Pins                : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFCNQD1 (CP)                            117
+DFSND1 (CP)                             4
+LND1 (EN)                               2
+-----------------------------------------------
+
+
+
+
+** Unsync Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+AN2D0 (A2)                              1
+AN2D1 (A2)                              1
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (clk) Cell: (EMPTY) Net: (clk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Unsync Pins            : 0
+          Nr. of Total Sync Pins        : 83
+          Nr. of     Rising  Sync Pins  : 83
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 2
+*DEPTH 1 Input_Pin: (U_delayline/clk_gate_pointer_reg/main_gate/A2) Output_Pin: (U_delayline/clk_gate_pointer_reg/main_gate/Z) Cell: (AN2D1) Net: (U_delayline/net95) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Unsync Pins            : 0
+          Nr. of Total Sync Pins        : 36
+          Nr. of     Rising  Sync Pins  : 36
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+*DEPTH 1 Input_Pin: (u_FIRP/clk_gate_outp_wire_reg/main_gate/A2) Output_Pin: (u_FIRP/clk_gate_outp_wire_reg/main_gate/Z) Cell: (AN2D0) Net: (u_FIRP/net80) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Unsync Pins            : 0
+          Nr. of Total Sync Pins        : 4
+          Nr. of     Rising  Sync Pins  : 4
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock clk
+*DEPTH 0: clk
+ (Sync)U_delayline/clk_gate_pointer_reg/latch/EN
+ (Sync)U_delayline/rws_wire_reg/CP
+ (Sync)U_delayline/adrs_wire_reg[0]/CP
+ (Sync)U_delayline/adrs_wire_reg[1]/CP
+ (Sync)U_delayline/adrs_wire_reg[2]/CP
+ (Sync)U_delayline/counter_reg[31]/CP
+ (Sync)U_delayline/counter_reg[2]/CP
+ (Sync)U_delayline/counter_reg[1]/CP
+ (Sync)U_delayline/counter_reg[6]/CP
+ (Sync)U_delayline/counter_reg[12]/CP
+ (Sync)U_delayline/counter_reg[16]/CP
+ (Sync)U_delayline/counter_reg[23]/CP
+ (Sync)U_delayline/counter_reg[27]/CP
+ (Sync)U_delayline/counter_reg[5]/CP
+ (Sync)U_delayline/counter_reg[9]/CP
+ (Sync)U_delayline/counter_reg[15]/CP
+ (Sync)U_delayline/counter_reg[19]/CP
+ (Sync)U_delayline/counter_reg[22]/CP
+ (Sync)U_delayline/counter_reg[26]/CP
+ (Sync)U_delayline/counter_reg[30]/CP
+ (Sync)U_delayline/counter_reg[4]/CP
+ (Sync)U_delayline/counter_reg[8]/CP
+ (Sync)U_delayline/counter_reg[14]/CP
+ (Sync)U_delayline/counter_reg[18]/CP
+ (Sync)U_delayline/counter_reg[21]/CP
+ (Sync)U_delayline/counter_reg[25]/CP
+ (Sync)U_delayline/counter_reg[29]/CP
+ (Sync)U_delayline/counter_reg[3]/CP
+ (Sync)U_delayline/counter_reg[7]/CP
+ (Sync)U_delayline/counter_reg[13]/CP
+ (Sync)U_delayline/counter_reg[17]/CP
+ (Sync)U_delayline/counter_reg[20]/CP
+ (Sync)U_delayline/counter_reg[24]/CP
+ (Sync)U_delayline/counter_reg[28]/CP
+ (Sync)U_delayline/counter_reg[0]/CP
+ (Sync)U_delayline/counter_reg[10]/CP
+ (Sync)U_delayline/counter_reg[11]/CP
+ (Sync)u_FIRP/clk_gate_outp_wire_reg/latch/EN
+ (Sync)u_FIRP/accumulator_reg[7]/CP
+ (Sync)u_FIRP/accumulator_reg[6]/CP
+ (Sync)u_FIRP/accumulator_reg[5]/CP
+ (Sync)u_FIRP/accumulator_reg[4]/CP
+ (Sync)u_FIRP/accumulator_reg[3]/CP
+ (Sync)u_FIRP/accumulator_reg[2]/CP
+ (Sync)u_FIRP/accumulator_reg[1]/CP
+ (Sync)u_FIRP/accumulator_reg[0]/CP
+ (Sync)u_FIRP/counter_reg[16]/CP
+ (Sync)u_FIRP/counter_reg[23]/CP
+ (Sync)u_FIRP/counter_reg[27]/CP
+ (Sync)u_FIRP/counter_reg[31]/CP
+ (Sync)u_FIRP/counter_reg[15]/CP
+ (Sync)u_FIRP/counter_reg[19]/CP
+ (Sync)u_FIRP/counter_reg[22]/CP
+ (Sync)u_FIRP/counter_reg[26]/CP
+ (Sync)u_FIRP/counter_reg[30]/CP
+ (Sync)u_FIRP/counter_reg[18]/CP
+ (Sync)u_FIRP/counter_reg[21]/CP
+ (Sync)u_FIRP/counter_reg[25]/CP
+ (Sync)u_FIRP/counter_reg[29]/CP
+ (Sync)u_FIRP/counter_reg[17]/CP
+ (Sync)u_FIRP/counter_reg[20]/CP
+ (Sync)u_FIRP/counter_reg[24]/CP
+ (Sync)u_FIRP/counter_reg[28]/CP
+ (Sync)u_FIRP/coef_addr_wire_reg[2]/CP
+ (Sync)u_FIRP/coef_addr_wire_reg[1]/CP
+ (Sync)u_FIRP/coef_addr_wire_reg[0]/CP
+ (Sync)u_FIRP/counter_reg[6]/CP
+ (Sync)u_FIRP/counter_reg[12]/CP
+ (Sync)u_FIRP/counter_reg[9]/CP
+ (Sync)u_FIRP/counter_reg[8]/CP
+ (Sync)u_FIRP/counter_reg[14]/CP
+ (Sync)u_FIRP/counter_reg[7]/CP
+ (Sync)u_FIRP/counter_reg[13]/CP
+ (Sync)u_FIRP/CURRENT_STATE_reg/CP
+ (Sync)u_FIRP/counter_reg[10]/CP
+ (Sync)u_FIRP/counter_reg[11]/CP
+ (Sync)u_FIRP/counter_reg[1]/CP
+ (Sync)u_FIRP/counter_reg[5]/CP
+ (Sync)u_FIRP/counter_reg[4]/CP
+ (Sync)u_FIRP/counter_reg[3]/CP
+ (Sync)u_FIRP/counter_reg[0]/CP
+ (Sync)u_FIRP/counter_reg[2]/CP
+ (Sync)u_FIRP/dav_wire_reg/CP
+ *DEPTH 1: U_delayline/clk_gate_pointer_reg/main_gate(A2->Z)
+  (Sync)U_delayline/sample_write_reg[3]/CP
+  (Sync)U_delayline/sample_write_reg[2]/CP
+  (Sync)U_delayline/sample_write_reg[1]/CP
+  (Sync)U_delayline/sample_write_reg[0]/CP
+  (Sync)U_delayline/pointer_reg[31]/CP
+  (Sync)U_delayline/pointer_reg[29]/CP
+  (Sync)U_delayline/pointer_reg[27]/CP
+  (Sync)U_delayline/pointer_reg[25]/CP
+  (Sync)U_delayline/pointer_reg[26]/CP
+  (Sync)U_delayline/pointer_reg[28]/CP
+  (Sync)U_delayline/pointer_reg[30]/CP
+  (Sync)U_delayline/pointer_reg[14]/CP
+  (Sync)U_delayline/pointer_reg[15]/CP
+  (Sync)U_delayline/pointer_reg[17]/CP
+  (Sync)U_delayline/pointer_reg[18]/CP
+  (Sync)U_delayline/pointer_reg[19]/CP
+  (Sync)U_delayline/pointer_reg[20]/CP
+  (Sync)U_delayline/pointer_reg[21]/CP
+  (Sync)U_delayline/pointer_reg[22]/CP
+  (Sync)U_delayline/pointer_reg[24]/CP
+  (Sync)U_delayline/pointer_reg[16]/CP
+  (Sync)U_delayline/pointer_reg[23]/CP
+  (Sync)U_delayline/pointer_reg[8]/CP
+  (Sync)U_delayline/pointer_reg[10]/CP
+  (Sync)U_delayline/pointer_reg[12]/CP
+  (Sync)U_delayline/pointer_reg[6]/CP
+  (Sync)U_delayline/pointer_reg[13]/CP
+  (Sync)U_delayline/pointer_reg[7]/CP
+  (Sync)U_delayline/pointer_reg[11]/CP
+  (Sync)U_delayline/pointer_reg[9]/CP
+  (Sync)U_delayline/pointer_reg[3]/CP
+  (Sync)U_delayline/pointer_reg[4]/CP
+  (Sync)U_delayline/pointer_reg[5]/CP
+  (Sync)U_delayline/pointer_reg[1]/CP
+  (Sync)U_delayline/pointer_reg[2]/CP
+  (Sync)U_delayline/pointer_reg[0]/CP
+ *DEPTH 1: u_FIRP/clk_gate_outp_wire_reg/main_gate(A2->Z)
+  (Sync)u_FIRP/outp_wire_reg[3]/CP
+  (Sync)u_FIRP/outp_wire_reg[2]/CP
+  (Sync)u_FIRP/outp_wire_reg[1]/CP
+  (Sync)u_FIRP/outp_wire_reg[0]/CP

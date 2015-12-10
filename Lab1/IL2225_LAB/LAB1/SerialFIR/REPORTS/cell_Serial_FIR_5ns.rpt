@@ -1,0 +1,51 @@
+ 
+****************************************
+Report : cell
+Design : Top_Serial_FIR
+Version: J-2014.09
+Date   : Sun Nov 15 15:49:05 2015
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+A1                        Arith_Unit                      2453.875203
+                                                                    h, n
+C1                        Coef_ROM                        45.964800 h
+D1                        delay_line                      3370.752060
+                                                                    h, n
+F1                        FSM                             422.553604
+                                                                    h, n
+U26                       AN2D0           tcbn90gtc       3.225600  
+U27                       AN2D0           tcbn90gtc       3.225600  
+U28                       AN2D0           tcbn90gtc       3.225600  
+U29                       AN2D0           tcbn90gtc       3.225600  
+U30                       AN2D0           tcbn90gtc       3.225600  
+U31                       AN2D0           tcbn90gtc       3.225600  
+U32                       AN2D0           tcbn90gtc       3.225600  
+U33                       AN2D0           tcbn90gtc       3.225600  
+U34                       AN2D0           tcbn90gtc       3.225600  
+U35                       AN2D0           tcbn90gtc       3.225600  
+U36                       AN2D0           tcbn90gtc       3.225600  
+U37                       AN2D0           tcbn90gtc       3.225600  
+U38                       AN2D0           tcbn90gtc       3.225600  
+U39                       AN2D0           tcbn90gtc       3.225600  
+U40                       AN2D0           tcbn90gtc       3.225600  
+U41                       AN2D0           tcbn90gtc       3.225600  
+U42                       AN2D0           tcbn90gtc       3.225600  
+U43                       AN2D0           tcbn90gtc       3.225600  
+U44                       AN2D0           tcbn90gtc       3.225600  
+U45                       AN2D0           tcbn90gtc       3.225600  
+U46                       AN2D0           tcbn90gtc       3.225600  
+U47                       AN2D0           tcbn90gtc       3.225600  
+U48                       AN2D0           tcbn90gtc       3.225600  
+U49                       AN2D0           tcbn90gtc       3.225600  
+--------------------------------------------------------------------------------
+Total 28 cells                                            6370.560067
+1

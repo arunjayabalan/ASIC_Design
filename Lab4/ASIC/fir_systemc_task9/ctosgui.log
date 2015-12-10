@@ -1,0 +1,66 @@
+                         Cadence C-to-Silicon Compiler
+           Version 14.10-s200  (32 bit), build 78898 Tue, 01 Jul 2014
+
+Copyright notice: Copyright 2006-2014 Cadence Design Systems, Inc. All rights
+reserved worldwide.
+
+Patent notice: Protected by U.S. Patents 7472361, 7587687, 7673259, 7711536,
+8458630; other U.S. patents pending.
+
+    Date: Thu Dec  3 16:08:29 2015
+    Command:  /afs/ict.kth.se/pkg/cadence/ctos/14.10/tools.lnx86/ctos/bin/32bit/ctosgui 
+Checked out license 'C_to_Silicon_Compiler_L'
+% gui_design -op open 
+% gui_design -op new 
+[Front-end] Parsing main.c ...
+% new_design FIR
+/designs/FIR
+% set_attr design_dir "" /designs/FIR
+% set_attr auto_write_models "true" /designs/FIR
+% define_sim_config -model_dir "./model" /designs/FIR
+% set_attr source_files [list main.c] /designs/FIR
+% set_attr compile_flags " -w" /designs/FIR
+% set_attr top_module_path "sc_main.DUT" /designs/FIR
+% define_clock -name clk -period 10000 -rise 0 -fall 5000
+% set_attr tech_lib_names [list tutorial.lib] [get_design]
+% set_attr low_power_clock_gating true [get_design]
+% build
+[Front-end] Parsing main.c ...
+[SystemC Elaborator] Elaborating design in hierarchical mode ...
+Trimming array 'c' to 2 bits from 32 bits.
+The design has 1 module(s), 1 array(s), 1 process(es), and 0 function(s).
+Writing Post-Build Verilog Simulation Model:
+write_sim -type verilog -suffix _post_build -birthday -dir ./model /designs/FIR/modules/DUT.
+Writing Verification Wrapper:
+write_wrapper -o ./model/DUT_ctos_wrapper.h /designs/FIR/modules/DUT.
+/designs/FIR
+% gui_view -type input
+/windows/window_1
+% gui_view -type cdfg -highlight loopJoin /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/for_ln35 
+/windows/cdfg_view_FIR_behavior
+% gui_view -type cdfg -highlight loopJoin /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/for_ln35 
+/windows/cdfg_view_FIR_behavior
+% unroll_loop /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/for_ln35 /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/for_ln40
+Unrolling 6 iterations of loop 'for_ln35'
+Unrolling 5 iterations of loop 'for_ln40'
+Removing array c because it is never read/written or all reads/writes have been optimized away
+% gui_view -type cdfg -highlight loopJoin /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/proc_ln24 
+/windows/cdfg_view_FIR_behavior
+% gui_view -type cdfg -highlight loopJoin /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/proc_ln24 
+/windows/cdfg_view_FIR_behavior
+% gui_view -type cdfg -highlight loopJoin /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/proc_ln24 
+/windows/cdfg_view_FIR_behavior
+% gui_view -type cdfg -highlight loopJoin /designs/FIR/modules/DUT/behaviors/FIR_behavior/nodes/proc_ln24 
+/windows/cdfg_view_FIR_behavior
+% gui_view -type cdfg /designs/FIR/modules/DUT/behaviors/FIR_behavior 
+/windows/cdfg_view_FIR_behavior
+% gui_schematic -type module 
+/windows/schematic
+% gui_report -type timing 
+% check_design 
+WARNING (CTOS-19038): Signal 'i_0' of module 'DUT' is not reset.
+WARNING (CTOS-19038): Signal 'i_1' of module 'DUT' is not reset.
+WARNING (CTOS-19038): Signal 'i_2' of module 'DUT' is not reset.
+WARNING (CTOS-19038): Signal 'i_3' of module 'DUT' is not reset.
+WARNING (CTOS-19038): Signal 'i_4' of module 'DUT' is not reset.
+0

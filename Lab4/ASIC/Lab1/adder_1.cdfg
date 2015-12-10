@@ -1,0 +1,301 @@
+#LAB-STICC-UBS, 2008
+#Date: Wed Dec  2 15:48:08 2015
+
+#Entity : adder_1
+source(adder_1_start) {
+	targets ALPAREN1RPAREN,
+	ALPAREN2RPAREN,
+	ALPAREN3RPAREN,
+	ALPAREN4RPAREN,
+	ALPAREN5RPAREN,
+	ALPAREN6RPAREN,
+	ALPAREN7RPAREN,
+	ALPAREN8RPAREN,
+	ALPAREN9RPAREN,
+	ALPAREN10RPAREN,
+	ALPAREN11RPAREN,
+	ALPAREN12RPAREN,
+	ALPAREN13RPAREN,
+	ALPAREN14RPAREN,
+	ALPAREN15RPAREN,
+	ALPAREN16RPAREN,
+	ALPAREN17RPAREN,
+	ALPAREN18RPAREN,
+	ALPAREN0RPAREN,
+	ALPAREN19RPAREN;
+}
+#Input declaration
+input(ALPAREN1RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN2RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN3RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN4RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN5RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN6RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN7RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN8RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN9RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN10RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN11RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN12RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN13RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN14RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN15RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN16RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN17RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN18RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN0RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN19RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+#Output declaration
+output(sum) {
+	bitwidth 32;
+	signed 1;
+}
+#Variable declaration
+variable(temp) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000001) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000002) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000003) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000004) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000005) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000006) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000007) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000008) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000009) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000010) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000011) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000012) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000013) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000014) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000015) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000016) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+variable(temp000017) {
+	bitwidth 32;
+	signed 1;
+	value 0;
+}
+operation(op0)  {
+	function add;
+	read ALPAREN1RPAREN,ALPAREN2RPAREN;
+	write temp;
+}
+operation(op1)  {
+	function add;
+	read temp,ALPAREN3RPAREN;
+	write temp000001;
+}
+operation(op2)  {
+	function add;
+	read temp000001,ALPAREN4RPAREN;
+	write temp000002;
+}
+operation(op3)  {
+	function add;
+	read temp000002,ALPAREN5RPAREN;
+	write temp000003;
+}
+operation(op4)  {
+	function add;
+	read temp000003,ALPAREN6RPAREN;
+	write temp000004;
+}
+operation(op5)  {
+	function add;
+	read temp000004,ALPAREN7RPAREN;
+	write temp000005;
+}
+operation(op6)  {
+	function add;
+	read temp000005,ALPAREN8RPAREN;
+	write temp000006;
+}
+operation(op7)  {
+	function add;
+	read temp000006,ALPAREN9RPAREN;
+	write temp000007;
+}
+operation(op8)  {
+	function add;
+	read temp000007,ALPAREN10RPAREN;
+	write temp000008;
+}
+operation(op9)  {
+	function add;
+	read temp000008,ALPAREN11RPAREN;
+	write temp000009;
+}
+operation(op10)  {
+	function add;
+	read ALPAREN12RPAREN,temp000009;
+	write temp000010;
+}
+operation(op11)  {
+	function add;
+	read ALPAREN13RPAREN,temp000010;
+	write temp000011;
+}
+operation(op12)  {
+	function add;
+	read ALPAREN14RPAREN,temp000011;
+	write temp000012;
+}
+operation(op13)  {
+	function add;
+	read ALPAREN15RPAREN,temp000012;
+	write temp000013;
+}
+operation(op14)  {
+	function add;
+	read ALPAREN16RPAREN,temp000013;
+	write temp000014;
+}
+operation(op15)  {
+	function add;
+	read ALPAREN17RPAREN,temp000014;
+	write temp000015;
+}
+operation(op16)  {
+	function add;
+	read ALPAREN18RPAREN,temp000015;
+	write temp000016;
+}
+operation(op17)  {
+	function add;
+	read ALPAREN0RPAREN,temp000016;
+	write temp000017;
+}
+operation(op18)  {
+	function add;
+	read ALPAREN19RPAREN,temp000017;
+	write sum;
+}
+sink(adder_1_end) {
+	targets sum;
+}

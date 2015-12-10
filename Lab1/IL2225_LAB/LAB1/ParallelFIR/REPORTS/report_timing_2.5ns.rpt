@@ -1,0 +1,186 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Top_Parallel_FIR
+Version: J-2014.09
+Date   : Thu Nov 19 11:01:51 2015
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: S1/data_reg[0][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: conv_sum_reg[23]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Top_Parallel_FIR   TSMC16K_Lowk_Conservative
+                                           tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  S1/data_reg[0][3]/CP (EDFCNQD4)                         0.00       0.00 r
+  S1/data_reg[0][3]/Q (EDFCNQD4)                          0.12       0.12 r
+  S1/sample_out[0][3] (Shift_register)                    0.00       0.12 r
+  A1/all_samples[0][3] (Arith_Unit)                       0.00       0.12 r
+  A1/MACX_0/sample_in[3] (MAC_0)                          0.00       0.12 r
+  A1/MACX_0/mult_16/a[3] (MAC_0_DW_mult_tc_2)             0.00       0.12 r
+  A1/MACX_0/mult_16/U440/ZN (XNR2D4)                      0.06       0.18 f
+  A1/MACX_0/mult_16/U449/ZN (OAI22D4)                     0.04       0.22 r
+  A1/MACX_0/mult_16/U444/Z (XOR2D2)                       0.05       0.27 r
+  A1/MACX_0/mult_16/U385/Z (OR2D1)                        0.05       0.33 r
+  A1/MACX_0/mult_16/U435/ZN (CKND2D1)                     0.03       0.36 f
+  A1/MACX_0/mult_16/U376/ZN (XNR2D2)                      0.08       0.43 r
+  A1/MACX_0/mult_16/product[3] (MAC_0_DW_mult_tc_2)       0.00       0.43 r
+  A1/MACX_0/add_16/A[3] (MAC_0_DW01_add_1)                0.00       0.43 r
+  A1/MACX_0/add_16/U266/Z (OR2D4)                         0.05       0.48 r
+  A1/MACX_0/add_16/U244/ZN (CKND2D2)                      0.02       0.50 f
+  A1/MACX_0/add_16/U295/ZN (XNR2D2)                       0.07       0.57 r
+  A1/MACX_0/add_16/SUM[3] (MAC_0_DW01_add_1)              0.00       0.57 r
+  A1/MACX_0/result[3] (MAC_0)                             0.00       0.57 r
+  A1/MACX_1/acc[3] (MAC_12)                               0.00       0.57 r
+  A1/MACX_1/add_16/B[3] (MAC_12_DW01_add_3)               0.00       0.57 r
+  A1/MACX_1/add_16/U331/Z (OR2D4)                         0.05       0.62 r
+  A1/MACX_1/add_16/U239/ZN (INVD2)                        0.02       0.64 f
+  A1/MACX_1/add_16/U303/ZN (NR2D3)                        0.03       0.67 r
+  A1/MACX_1/add_16/U275/Z (OR2D4)                         0.05       0.72 r
+  A1/MACX_1/add_16/U299/ZN (XNR2D2)                       0.10       0.82 r
+  A1/MACX_1/add_16/SUM[4] (MAC_12_DW01_add_3)             0.00       0.82 r
+  A1/MACX_1/result[4] (MAC_12)                            0.00       0.82 r
+  A1/MACX_2/acc[4] (MAC_11)                               0.00       0.82 r
+  A1/MACX_2/add_16/B[4] (MAC_11_DW01_add_3)               0.00       0.82 r
+  A1/MACX_2/add_16/U272/ZN (NR2D2)                        0.02       0.84 f
+  A1/MACX_2/add_16/U269/ZN (NR2D2)                        0.04       0.88 r
+  A1/MACX_2/add_16/U289/ZN (IND2D4)                       0.05       0.93 r
+  A1/MACX_2/add_16/U330/ZN (AOI21D4)                      0.02       0.95 f
+  A1/MACX_2/add_16/U221/ZN (INVD3)                        0.03       0.98 r
+  A1/MACX_2/add_16/U250/ZN (CKND2D3)                      0.03       1.00 f
+  A1/MACX_2/add_16/U225/ZN (ND2D4)                        0.02       1.03 r
+  A1/MACX_2/add_16/U249/Z (XOR3D4)                        0.08       1.11 f
+  A1/MACX_2/add_16/SUM[7] (MAC_11_DW01_add_3)             0.00       1.11 f
+  A1/MACX_2/result[7] (MAC_11)                            0.00       1.11 f
+  A1/MACX_3/acc[7] (MAC_10)                               0.00       1.11 f
+  A1/MACX_3/add_16/B[7] (MAC_10_DW01_add_2)               0.00       1.11 f
+  A1/MACX_3/add_16/U202/ZN (CKND2D3)                      0.03       1.14 r
+  A1/MACX_3/add_16/U215/ZN (OAI21D4)                      0.03       1.17 f
+  A1/MACX_3/add_16/U308/ZN (AOI21D4)                      0.06       1.23 r
+  A1/MACX_3/add_16/U132/ZN (OAI21D4)                      0.04       1.27 f
+  A1/MACX_3/add_16/U268/CN (CKND2)                        0.02       1.29 r
+  A1/MACX_3/add_16/U245/ZN (INVD4)                        0.02       1.31 f
+  A1/MACX_3/add_16/U248/ZN (CKND2D8)                      0.02       1.33 r
+  A1/MACX_3/add_16/U252/ZN (ND2D8)                        0.02       1.35 f
+  A1/MACX_3/add_16/SUM[9] (MAC_10_DW01_add_2)             0.00       1.35 f
+  A1/MACX_3/result[9] (MAC_10)                            0.00       1.35 f
+  A1/MACX_4/acc[9] (MAC_9)                                0.00       1.35 f
+  A1/MACX_4/add_16/B[9] (MAC_9_DW01_add_2)                0.00       1.35 f
+  A1/MACX_4/add_16/U281/ZN (NR2D8)                        0.04       1.39 r
+  A1/MACX_4/add_16/U246/ZN (OAI21D4)                      0.02       1.41 f
+  A1/MACX_4/add_16/U308/ZN (AOI21D4)                      0.06       1.46 r
+  A1/MACX_4/add_16/U363/Z (XOR2D2)                        0.10       1.57 f
+  A1/MACX_4/add_16/SUM[10] (MAC_9_DW01_add_2)             0.00       1.57 f
+  A1/MACX_4/result[10] (MAC_9)                            0.00       1.57 f
+  A1/MACX_5/acc[10] (MAC_8)                               0.00       1.57 f
+  A1/MACX_5/add_16/B[10] (MAC_8_DW01_add_2)               0.00       1.57 f
+  A1/MACX_5/add_16/U203/ZN (NR2D4)                        0.05       1.61 r
+  A1/MACX_5/add_16/U292/ZN (OAI21D2)                      0.03       1.64 f
+  A1/MACX_5/add_16/U309/ZN (AOI21D2)                      0.07       1.71 r
+  A1/MACX_5/add_16/U299/ZN (OAI21D2)                      0.03       1.74 f
+  A1/MACX_5/add_16/U199/ZN (INVD3)                        0.03       1.78 r
+  A1/MACX_5/add_16/U297/ZN (OAI21D2)                      0.02       1.80 f
+  A1/MACX_5/add_16/U305/ZN (XNR2D2)                       0.08       1.88 f
+  A1/MACX_5/add_16/SUM[13] (MAC_8_DW01_add_2)             0.00       1.88 f
+  A1/MACX_5/result[13] (MAC_8)                            0.00       1.88 f
+  A1/MACX_6/acc[13] (MAC_7)                               0.00       1.88 f
+  A1/MACX_6/add_16/B[13] (MAC_7_DW01_add_2)               0.00       1.88 f
+  A1/MACX_6/add_16/U270/Z (OR2D4)                         0.06       1.94 f
+  A1/MACX_6/add_16/U266/ZN (CKND2D1)                      0.03       1.97 r
+  A1/MACX_6/add_16/U366/Z (XOR2D2)                        0.09       2.07 r
+  A1/MACX_6/add_16/SUM[13] (MAC_7_DW01_add_2)             0.00       2.07 r
+  A1/MACX_6/result[13] (MAC_7)                            0.00       2.07 r
+  A1/MACX_7/acc[13] (MAC_6)                               0.00       2.07 r
+  A1/MACX_7/add_16/B[13] (MAC_6_DW01_add_2)               0.00       2.07 r
+  A1/MACX_7/add_16/U258/ZN (NR2D3)                        0.02       2.09 f
+  A1/MACX_7/add_16/U296/ZN (NR2D1)                        0.05       2.14 r
+  A1/MACX_7/add_16/U205/ZN (ND2D2)                        0.03       2.17 f
+  A1/MACX_7/add_16/U295/Z (AN2D4)                         0.04       2.21 f
+  A1/MACX_7/add_16/U69/ZN (OAI21D4)                       0.04       2.26 r
+  A1/MACX_7/add_16/U256/Z (XOR2D2)                        0.09       2.35 f
+  A1/MACX_7/add_16/SUM[15] (MAC_6_DW01_add_2)             0.00       2.35 f
+  A1/MACX_7/result[15] (MAC_6)                            0.00       2.35 f
+  A1/MACX_8/acc[15] (MAC_5)                               0.00       2.35 f
+  A1/MACX_8/add_16/B[15] (MAC_5_DW01_add_2)               0.00       2.35 f
+  A1/MACX_8/add_16/U276/Z (OR2D4)                         0.06       2.41 f
+  A1/MACX_8/add_16/U307/Z (AN2D4)                         0.04       2.45 f
+  A1/MACX_8/add_16/U285/ZN (NR2D4)                        0.05       2.50 r
+  A1/MACX_8/add_16/U279/ZN (INVD2)                        0.02       2.53 f
+  A1/MACX_8/add_16/U186/ZN (CKND2D4)                      0.02       2.55 r
+  A1/MACX_8/add_16/U243/ZN (ND2D4)                        0.02       2.57 f
+  A1/MACX_8/add_16/SUM[16] (MAC_5_DW01_add_2)             0.00       2.57 f
+  A1/MACX_8/result[16] (MAC_5)                            0.00       2.57 f
+  A1/MACX_9/acc[16] (MAC_4)                               0.00       2.57 f
+  A1/MACX_9/add_16/B[16] (MAC_4_DW01_add_3)               0.00       2.57 f
+  A1/MACX_9/add_16/U250/ZN (IND2D4)                       0.05       2.62 f
+  A1/MACX_9/add_16/U198/ZN (ND2D2)                        0.02       2.64 r
+  A1/MACX_9/add_16/U322/Z (XOR2D2)                        0.09       2.73 f
+  A1/MACX_9/add_16/SUM[16] (MAC_4_DW01_add_3)             0.00       2.73 f
+  A1/MACX_9/result[16] (MAC_4)                            0.00       2.73 f
+  A1/MACX_10/acc[16] (MAC_3)                              0.00       2.73 f
+  A1/MACX_10/add_16/B[16] (MAC_3_DW01_add_3)              0.00       2.73 f
+  A1/MACX_10/add_16/U228/ZN (NR2D4)                       0.05       2.78 r
+  A1/MACX_10/add_16/U285/ZN (OAI21D2)                     0.03       2.81 f
+  A1/MACX_10/add_16/U282/ZN (AOI21D2)                     0.07       2.88 r
+  A1/MACX_10/add_16/U279/ZN (OAI21D2)                     0.04       2.91 f
+  A1/MACX_10/add_16/U252/ZN (INVD3)                       0.03       2.94 r
+  A1/MACX_10/add_16/U255/ZN (OAI21D2)                     0.02       2.96 f
+  A1/MACX_10/add_16/U299/ZN (XNR2D2)                      0.08       3.04 f
+  A1/MACX_10/add_16/SUM[19] (MAC_3_DW01_add_3)            0.00       3.04 f
+  A1/MACX_10/result[19] (MAC_3)                           0.00       3.04 f
+  A1/MACX_11/acc[19] (MAC_2)                              0.00       3.04 f
+  A1/MACX_11/add_16/B[19] (MAC_2_DW01_add_3)              0.00       3.04 f
+  A1/MACX_11/add_16/U280/ZN (NR2D4)                       0.05       3.09 r
+  A1/MACX_11/add_16/U226/ZN (INVD2)                       0.02       3.11 f
+  A1/MACX_11/add_16/U201/ZN (CKND2D2)                     0.02       3.13 r
+  A1/MACX_11/add_16/U275/ZN (XNR2D2)                      0.09       3.22 r
+  A1/MACX_11/add_16/SUM[19] (MAC_2_DW01_add_3)            0.00       3.22 r
+  A1/MACX_11/result[19] (MAC_2)                           0.00       3.22 r
+  A1/MACX_12/acc[19] (MAC_1)                              0.00       3.22 r
+  A1/MACX_12/add_16/B[19] (MAC_1_DW01_add_2)              0.00       3.22 r
+  A1/MACX_12/add_16/U239/ZN (IND2D4)                      0.05       3.27 r
+  A1/MACX_12/add_16/U245/CN (CKND3)                       0.02       3.29 f
+  A1/MACX_12/add_16/U212/ZN (OAI21D4)                     0.04       3.32 r
+  A1/MACX_12/add_16/U197/CN (CKND2)                       0.02       3.34 f
+  A1/MACX_12/add_16/U256/ZN (OAI21D4)                     0.03       3.38 r
+  A1/MACX_12/add_16/U255/ZN (AOI21D4)                     0.02       3.40 f
+  A1/MACX_12/add_16/U211/ZN (INVD3)                       0.03       3.43 r
+  A1/MACX_12/add_16/U223/ZN (CKND2D4)                     0.02       3.45 f
+  A1/MACX_12/add_16/U227/ZN (ND2D4)                       0.03       3.48 r
+  A1/MACX_12/add_16/U228/ZN (AOI21D4)                     0.02       3.50 f
+  A1/MACX_12/add_16/U254/Z (XOR2D2)                       0.06       3.56 r
+  A1/MACX_12/add_16/SUM[23] (MAC_1_DW01_add_2)            0.00       3.56 r
+  A1/MACX_12/result[23] (MAC_1)                           0.00       3.56 r
+  A1/result[23] (Arith_Unit)                              0.00       3.56 r
+  conv_sum_reg[23]/D (DFCNQD1)                            0.00       3.56 r
+  data arrival time                                                  3.56
+
+  clock clk (rise edge)                                   2.50       2.50
+  clock network delay (ideal)                             0.00       2.50
+  conv_sum_reg[23]/CP (DFCNQD1)                           0.00       2.50 r
+  library setup time                                     -0.03       2.47
+  data required time                                                 2.47
+  --------------------------------------------------------------------------
+  data required time                                                 2.47
+  data arrival time                                                 -3.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.08
+
+
+1

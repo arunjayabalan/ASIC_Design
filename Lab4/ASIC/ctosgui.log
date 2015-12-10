@@ -1,0 +1,48 @@
+                         Cadence C-to-Silicon Compiler
+           Version 14.10-s200  (32 bit), build 78898 Tue, 01 Jul 2014
+
+Copyright notice: Copyright 2006-2014 Cadence Design Systems, Inc. All rights
+reserved worldwide.
+
+Patent notice: Protected by U.S. Patents 7472361, 7587687, 7673259, 7711536,
+8458630; other U.S. patents pending.
+
+    Date: Wed Dec  2 18:27:27 2015
+    Command:  /afs/ict.kth.se/pkg/cadence/ctos/14.10/tools.lnx86/ctos/bin/32bit/ctosgui 
+Checked out license 'C_to_Silicon_Compiler_L'
+% gui_design -op new 
+% gui_design -op new 
+[Front-end] Parsing fir_systemc_task9/main.c ...
+% new_design FIR_Test
+/designs/FIR_Test
+% set_attr design_dir "fir_systemc_task9" /designs/FIR_Test
+% set_attr auto_write_models "true" /designs/FIR_Test
+% define_sim_config -model_dir "./model" /designs/FIR_Test
+% set_attr source_files [list fir_systemc_task9/main.c] /designs/FIR_Test
+% set_attr compile_flags " -w" /designs/FIR_Test
+% set_attr top_module_path "sc_main.DUT" /designs/FIR_Test
+% define_clock -name clk -period 10000 -rise 0 -fall 5000
+% set_attr tech_lib_names [list fir_systemc_task9/tutorial.lib  fir_systemc_task9/tutorial.lbr] [get_design]
+% set_attr low_power_clock_gating true [get_design]
+% build
+[Front-end] Parsing fir_systemc_task9/main.c ...
+[SystemC Elaborator] Elaborating design in hierarchical mode ...
+Trimming array 'c' to 2 bits from 32 bits.
+The design has 1 module(s), 1 array(s), 1 process(es), and 0 function(s).
+Writing Post-Build Verilog Simulation Model:
+write_sim -type verilog -suffix _post_build -birthday -dir ./model /designs/FIR_Test/modules/DUT.
+Writing Verification Wrapper:
+write_wrapper -o ./model/DUT_ctos_wrapper.h /designs/FIR_Test/modules/DUT.
+/designs/FIR_Test
+% gui_view -type input
+/windows/window_1
+% gui_view -type cdfg -highlight loopJoin /designs/FIR_Test/modules/DUT/behaviors/FIR_behavior/nodes/for_ln35 
+/windows/cdfg_view_FIR_behavior
+% gui_view -type cdfg -highlight loopJoin /designs/FIR_Test/modules/DUT/behaviors/FIR_behavior/nodes/for_ln35 
+/windows/cdfg_view_FIR_behavior
+% gui_unroll_loop /designs/FIR_Test/modules/DUT/behaviors/FIR_behavior/nodes/for_ln35 
+% unroll_loop /designs/FIR_Test/modules/DUT/behaviors/FIR_behavior/nodes/for_ln35
+Unrolling 6 iterations of loop 'for_ln35'
+Removing array c because it is never read/written or all reads/writes have been optimized away
+% gui_view -type cdfg -highlight loopJoin /designs/FIR_Test/modules/DUT/behaviors/FIR_behavior/nodes/for_ln40 
+/windows/cdfg_view_FIR_behavior

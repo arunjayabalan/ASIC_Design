@@ -1,0 +1,318 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE
+T_opt
+Z1 VTM89cOh;LXXi7?o>ZUh9U3
+Z2 04 14 8 work tb_fullyserial behavior 1
+Z3 =1-00238bf41ce4-564a01ca-4a2b6-2d71
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VdIS]YBc:RFER4:GnZkc6=3
+Z8 04 14 10 work top_serial_fir structural 1
+Z9 =1-00238bf41ce4-564a1bd1-b55f8-3697
+R4
+Z10 n@_opt1
+R6
+Earith_unit
+Z11 w1447695309
+Z12 DPx4 work 4 misc 0 22 AI<?V@a18K:dFeec0CAoT2
+Z13 DPx4 work 12 types_consts 0 22 hWT]YXHTi9cf1]mIaUYiJ0
+Z14 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z15 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z16 d/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR
+Z17 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/ArithUnit.vhd
+Z18 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/ArithUnit.vhd
+l0
+L7
+Z19 V;GF2fG8ZaYAbf_KC3UhEC1
+Z20 OE;C;6.5;42
+32
+Z21 o-work work -2002 -explicit
+Z22 tExplicit 1
+Z23 !s100 05=No<k^b9_PjaWezefSj1
+Abehavior
+R12
+R13
+R14
+R15
+Z24 DEx4 work 10 arith_unit 0 22 ;GF2fG8ZaYAbf_KC3UhEC1
+l37
+L20
+Z25 V8jckh60U;TU<0TX7^HP1D3
+R20
+32
+Z26 Mx4 4 ieee 14 std_logic_1164
+Z27 Mx3 4 ieee 15 std_logic_arith
+Z28 Mx2 4 work 12 types_consts
+Z29 Mx1 4 work 4 misc
+R21
+R22
+Z30 !s100 5fZjK=AgZE_=eJbUBH=F03
+Ecoef_rom
+Z31 w1447595705
+R12
+R13
+R14
+R15
+R16
+Z32 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/coefRom.vhd
+Z33 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/coefRom.vhd
+l0
+L7
+Z34 V6_VJ`[M:0Y5PiQhN`P<GN0
+R20
+32
+R21
+R22
+Z35 !s100 VcaE^imMJbG;?`g8FS@iL1
+Abehavior
+R12
+R13
+R14
+R15
+Z36 DEx4 work 8 coef_rom 0 22 6_VJ`[M:0Y5PiQhN`P<GN0
+l14
+L12
+Z37 VceM[;IKd591R02DZ`Zo?E1
+R20
+32
+R26
+R27
+R28
+R29
+R21
+R22
+Z38 !s100 fFOCW?LPb[>HjK`[TzlI81
+Edelay_line
+Z39 w1447695423
+R12
+R13
+R14
+R15
+R16
+Z40 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd
+Z41 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/DelayLine.vhd
+l0
+L7
+Z42 V:fg1GlZYSW76>jNA[T>Pe0
+R20
+32
+R21
+R22
+Z43 !s100 7l2oVF^ADiHfQ]L;0@C?;3
+Abehavior
+R12
+R13
+R14
+R15
+Z44 DEx4 work 10 delay_line 0 22 :fg1GlZYSW76>jNA[T>Pe0
+l24
+L20
+Z45 V43HAgC4^<aQR?IE^L1z:T3
+R20
+32
+R26
+R27
+R28
+R29
+R21
+R22
+Z46 !s100 O`1?GfJNcLajGgZ=6^mz?1
+Efsm
+Z47 w1447696648
+R12
+R13
+R14
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R15
+R16
+Z49 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/FSM.vhd
+Z50 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/FSM.vhd
+l0
+L8
+Z51 VMIJ5BNbn1JRHN;1;5LY_X2
+R20
+32
+R21
+R22
+Z52 !s100 K?dG[cfGWn6=XcodXg^OC2
+Abehavioral
+R12
+R13
+R14
+R48
+R15
+Z53 DEx4 work 3 fsm 0 22 MIJ5BNbn1JRHN;1;5LY_X2
+l34
+L24
+Z54 V4m1z]jIP`[Sh?IWOHeXFf1
+R20
+32
+Z55 Mx5 4 ieee 14 std_logic_1164
+Z56 Mx4 4 ieee 18 std_logic_unsigned
+R27
+R28
+R29
+R21
+R22
+Z57 !s100 GzZ4jYi4dk<POL]b<S;461
+Emac
+R31
+R12
+R13
+R14
+R15
+R16
+Z58 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/MAC.vhd
+Z59 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/MAC.vhd
+l0
+L7
+Z60 Vz1fZ;71AKCFC2WPE=o?8S2
+R20
+32
+R21
+R22
+Z61 !s100 YE1KE1oWLcc@h1P<CT9ET3
+Abehavior
+R12
+R13
+R14
+R15
+Z62 DEx4 work 3 mac 0 22 z1fZ;71AKCFC2WPE=o?8S2
+l15
+L14
+Z63 V2VdnWf`Z`F`QJ>N6>n`oR2
+R20
+32
+R26
+R27
+R28
+R29
+R21
+R22
+Z64 !s100 3iFRN6LP180N@ni;Sf=_@2
+Pmisc
+R31
+R16
+Z65 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/misc.vhd
+Z66 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/misc.vhd
+l0
+L1
+Z67 VAI<?V@a18K:dFeec0CAoT2
+R20
+32
+b1
+R21
+R22
+Z68 !s100 _NcHm;YMe4_?;d;5Mc3FS3
+Bbody
+Z69 DBx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 4 misc 0 22 AI<?V@a18K:dFeec0CAoT2
+32
+l0
+L10
+Z70 VQgB2^<X`n61a?[QI286C32
+R20
+R21
+R22
+nbody
+Z71 !s100 zT`dB09QI;Q_VUSVVm7M;0
+Etb_fullyserial
+R31
+R12
+R13
+R14
+R15
+R16
+Z72 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/TB_Serial_FIR.vhd
+Z73 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/TB_Serial_FIR.vhd
+l0
+L7
+Z74 VA>7QTE^4VbD^G<XU<^n6>2
+R20
+32
+R21
+R22
+Z75 !s100 l?63;mI[;g6hODTNH;P1W0
+Abehavior
+R12
+R13
+R14
+R15
+Z76 DEx4 work 14 tb_fullyserial 0 22 A>7QTE^4VbD^G<XU<^n6>2
+l21
+L9
+Z77 VY<Sl7laQldk[Po`SNhBf63
+R20
+32
+R26
+R27
+R28
+R29
+R21
+R22
+Z78 !s100 go:M>4j4S5T3M3mL7zokA1
+Etop_serial_fir
+Z79 w1447696837
+Z80 DPx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 4 misc 0 22 AI<?V@a18K:dFeec0CAoT2
+Z81 DPx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 12 types_consts 0 22 hWT]YXHTi9cf1]mIaUYiJ0
+Z82 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z83 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R16
+Z84 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/TopFIR.vhd
+Z85 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/TopFIR.vhd
+l0
+L8
+Z86 VS5[Q6X26];jXF:TDhBeKS2
+R20
+R21
+R22
+Z87 !s100 ClFDlPiUWWNlUTl7mg:mc3
+Astructural
+Z88 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z89 DEx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 3 mac 0 22 z1fZ;71AKCFC2WPE=o?8S2
+DEx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 3 fsm 0 22 MIJ5BNbn1JRHN;1;5LY_X2
+DEx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 10 arith_unit 0 22 ;GF2fG8ZaYAbf_KC3UhEC1
+Z90 DEx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 8 coef_rom 0 22 6_VJ`[M:0Y5PiQhN`P<GN0
+Z91 DEx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 10 delay_line 0 22 :fg1GlZYSW76>jNA[T>Pe0
+R80
+R81
+R82
+R83
+Z92 DEx84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 14 top_serial_fir 0 22 S5[Q6X26];jXF:TDhBeKS2
+32
+Z93 Mx5 17 __model_tech/ieee 14 std_logic_1164
+Z94 Mx4 17 __model_tech/ieee 15 std_logic_arith
+Z95 Mx3 84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 12 types_consts
+Z96 Mx2 84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 4 misc
+Z97 Mx1 17 __model_tech/ieee 18 std_logic_unsigned
+l78
+L17
+Z98 VI;Q<XjeDO1m92TZ@iCQ1<2
+R20
+R21
+R22
+Z99 !s100 cPZ`VTVcLeHd>]G[HU1]m2
+Ptypes_consts
+R80
+R82
+R83
+32
+Z100 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z101 Mx2 17 __model_tech/ieee 15 std_logic_arith
+Z102 Mx1 84 /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/work 4 misc
+R31
+R16
+Z103 8/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/myPackage.vhd
+Z104 F/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab1/IL2225_LAB/LAB1/PartiallyParallelFIR/SOURCE/myPackage.vhd
+l0
+L7
+Z105 VhWT]YXHTi9cf1]mIaUYiJ0
+R20
+R21
+R22
+Z106 !s100 KzYcOo<PK83l;7XDZg6G61

@@ -1,0 +1,80 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FIR_Toplevel
+Version: J-2014.09
+Date   : Tue Dec  8 12:45:25 2015
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: U_delayline/counter_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: U_delayline/counter_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FIR_Toplevel       TSMC8K_Lowk_Conservative
+                                           tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U_delayline/counter_reg[2]/CP (DFCNQD1)                 0.00       0.00 r
+  U_delayline/counter_reg[2]/Q (DFCNQD1)                  0.16       0.16 r
+  U_delayline/add_78/A[2] (Delayline_CB_DW01_inc_0)       0.00       0.16 r
+  U_delayline/add_78/U2/ZN (ND2D1)                        0.03       0.19 f
+  U_delayline/add_78/U12/ZN (INR2D1)                      0.06       0.25 r
+  U_delayline/add_78/U11/Z (AN2D2)                        0.06       0.31 r
+  U_delayline/add_78/U1_1_4/CO (CMPE22D1)                 0.07       0.38 r
+  U_delayline/add_78/U9/Z (AN2D2)                         0.06       0.43 r
+  U_delayline/add_78/U1_1_7/CO (CMPE22D1)                 0.06       0.49 r
+  U_delayline/add_78/U1_1_8/CO (CMPE22D1)                 0.07       0.56 r
+  U_delayline/add_78/U8/Z (AN2D2)                         0.05       0.61 r
+  U_delayline/add_78/U13/Z (AN2D4)                        0.04       0.65 r
+  U_delayline/add_78/U1_1_12/CO (CMPE22D1)                0.05       0.70 r
+  U_delayline/add_78/U1_1_13/CO (CMPE22D1)                0.06       0.76 r
+  U_delayline/add_78/U1_1_14/CO (CMPE22D1)                0.06       0.82 r
+  U_delayline/add_78/U22/Z (AN2D2)                        0.05       0.88 r
+  U_delayline/add_78/U1_1_16/CO (CMPE22D1)                0.05       0.93 r
+  U_delayline/add_78/U4/Z (AN2D0)                         0.09       1.02 r
+  U_delayline/add_78/U1_1_18/CO (CMPE22D1)                0.07       1.09 r
+  U_delayline/add_78/U6/Z (AN2D0)                         0.10       1.19 r
+  U_delayline/add_78/U1_1_21/CO (CMPE22D1)                0.06       1.25 r
+  U_delayline/add_78/U23/Z (CKAN2D1)                      0.07       1.32 r
+  U_delayline/add_78/U1_1_23/CO (CMPE22D1)                0.06       1.37 r
+  U_delayline/add_78/U16/Z (CKAN2D1)                      0.07       1.44 r
+  U_delayline/add_78/U5/Z (AN2D2)                         0.05       1.49 r
+  U_delayline/add_78/U3/Z (AN2D0)                         0.09       1.59 r
+  U_delayline/add_78/U1_1_27/CO (CMPE22D1)                0.06       1.65 r
+  U_delayline/add_78/U1_1_28/CO (CMPE22D1)                0.06       1.71 r
+  U_delayline/add_78/U1/Z (AN2D2)                         0.05       1.76 r
+  U_delayline/add_78/U1_1_30/CO (CMPE22D1)                0.05       1.81 r
+  U_delayline/add_78/U33/Z (XOR2D1)                       0.07       1.88 f
+  U_delayline/add_78/SUM[31] (Delayline_CB_DW01_inc_0)
+                                                          0.00       1.88 f
+  U_delayline/U114/Z (AO22D0)                             0.10       1.98 f
+  U_delayline/counter_reg[31]/D (DFCNQD1)                 0.00       1.98 f
+  data arrival time                                                  1.98
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  U_delayline/counter_reg[31]/CP (DFCNQD1)                0.00       2.00 r
+  library setup time                                     -0.02       1.98
+  data required time                                                 1.98
+  --------------------------------------------------------------------------
+  data required time                                                 1.98
+  data arrival time                                                 -1.98
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

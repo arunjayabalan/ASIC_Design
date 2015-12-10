@@ -1,0 +1,410 @@
+#LAB-STICC-UBS, 2008
+#Date: Wed Dec  2 16:12:40 2015
+
+#Entity : adder_2
+source(adder_2_start) {
+	targets ALPAREN0RPAREN,
+	BLPAREN0RPAREN,
+	BLPAREN1RPAREN,
+	ALPAREN1RPAREN,
+	BLPAREN2RPAREN,
+	ALPAREN2RPAREN,
+	BLPAREN3RPAREN,
+	ALPAREN3RPAREN,
+	BLPAREN4RPAREN,
+	ALPAREN4RPAREN,
+	BLPAREN5RPAREN,
+	ALPAREN5RPAREN,
+	BLPAREN6RPAREN,
+	ALPAREN6RPAREN,
+	ALPAREN7RPAREN,
+	BLPAREN7RPAREN,
+	BLPAREN8RPAREN,
+	ALPAREN8RPAREN,
+	BLPAREN9RPAREN,
+	ALPAREN9RPAREN,
+	BLPAREN10RPAREN,
+	ALPAREN10RPAREN,
+	BLPAREN11RPAREN,
+	ALPAREN11RPAREN,
+	BLPAREN12RPAREN,
+	ALPAREN12RPAREN,
+	BLPAREN13RPAREN,
+	ALPAREN13RPAREN,
+	BLPAREN14RPAREN,
+	ALPAREN14RPAREN,
+	BLPAREN15RPAREN,
+	ALPAREN15RPAREN,
+	BLPAREN16RPAREN,
+	ALPAREN16RPAREN,
+	BLPAREN17RPAREN,
+	ALPAREN17RPAREN,
+	BLPAREN18RPAREN,
+	ALPAREN18RPAREN,
+	BLPAREN19RPAREN,
+	ALPAREN19RPAREN;
+}
+#Input declaration
+input(ALPAREN0RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN0RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN1RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN1RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN2RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN2RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN3RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN3RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN4RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN4RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN5RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN5RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN6RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN6RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN7RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN7RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN8RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN8RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN9RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN9RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN10RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN10RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN11RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN11RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN12RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN12RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN13RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN13RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN14RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN14RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN15RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN15RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN16RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN16RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN17RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN17RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN18RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN18RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(BLPAREN19RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+input(ALPAREN19RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+#Output declaration
+output(CLPAREN0RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN1RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN2RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN3RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN4RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN5RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN6RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN7RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN8RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN9RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN10RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN11RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN12RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN13RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN14RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN15RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN16RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN17RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN18RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+output(CLPAREN19RPAREN) {
+	bitwidth 32;
+	signed 1;
+}
+operation(op0)  {
+	function add;
+	read ALPAREN0RPAREN,BLPAREN0RPAREN;
+	write CLPAREN0RPAREN;
+}
+operation(op1)  {
+	function add;
+	read BLPAREN1RPAREN,ALPAREN1RPAREN;
+	write CLPAREN1RPAREN;
+}
+operation(op2)  {
+	function add;
+	read BLPAREN2RPAREN,ALPAREN2RPAREN;
+	write CLPAREN2RPAREN;
+}
+operation(op3)  {
+	function add;
+	read BLPAREN3RPAREN,ALPAREN3RPAREN;
+	write CLPAREN3RPAREN;
+}
+operation(op4)  {
+	function add;
+	read BLPAREN4RPAREN,ALPAREN4RPAREN;
+	write CLPAREN4RPAREN;
+}
+operation(op5)  {
+	function add;
+	read BLPAREN5RPAREN,ALPAREN5RPAREN;
+	write CLPAREN5RPAREN;
+}
+operation(op6)  {
+	function add;
+	read BLPAREN6RPAREN,ALPAREN6RPAREN;
+	write CLPAREN6RPAREN;
+}
+operation(op7)  {
+	function add;
+	read ALPAREN7RPAREN,BLPAREN7RPAREN;
+	write CLPAREN7RPAREN;
+}
+operation(op8)  {
+	function add;
+	read BLPAREN8RPAREN,ALPAREN8RPAREN;
+	write CLPAREN8RPAREN;
+}
+operation(op9)  {
+	function add;
+	read BLPAREN9RPAREN,ALPAREN9RPAREN;
+	write CLPAREN9RPAREN;
+}
+operation(op10)  {
+	function add;
+	read BLPAREN10RPAREN,ALPAREN10RPAREN;
+	write CLPAREN10RPAREN;
+}
+operation(op11)  {
+	function add;
+	read BLPAREN11RPAREN,ALPAREN11RPAREN;
+	write CLPAREN11RPAREN;
+}
+operation(op12)  {
+	function add;
+	read BLPAREN12RPAREN,ALPAREN12RPAREN;
+	write CLPAREN12RPAREN;
+}
+operation(op13)  {
+	function add;
+	read BLPAREN13RPAREN,ALPAREN13RPAREN;
+	write CLPAREN13RPAREN;
+}
+operation(op14)  {
+	function add;
+	read BLPAREN14RPAREN,ALPAREN14RPAREN;
+	write CLPAREN14RPAREN;
+}
+operation(op15)  {
+	function add;
+	read BLPAREN15RPAREN,ALPAREN15RPAREN;
+	write CLPAREN15RPAREN;
+}
+operation(op16)  {
+	function add;
+	read BLPAREN16RPAREN,ALPAREN16RPAREN;
+	write CLPAREN16RPAREN;
+}
+operation(op17)  {
+	function add;
+	read BLPAREN17RPAREN,ALPAREN17RPAREN;
+	write CLPAREN17RPAREN;
+}
+operation(op18)  {
+	function add;
+	read BLPAREN18RPAREN,ALPAREN18RPAREN;
+	write CLPAREN18RPAREN;
+}
+operation(op19)  {
+	function add;
+	read BLPAREN19RPAREN,ALPAREN19RPAREN;
+	write CLPAREN19RPAREN;
+}
+sink(adder_2_end) {
+	targets CLPAREN0RPAREN,
+	CLPAREN1RPAREN,
+	CLPAREN2RPAREN,
+	CLPAREN3RPAREN,
+	CLPAREN4RPAREN,
+	CLPAREN5RPAREN,
+	CLPAREN6RPAREN,
+	CLPAREN7RPAREN,
+	CLPAREN8RPAREN,
+	CLPAREN9RPAREN,
+	CLPAREN10RPAREN,
+	CLPAREN11RPAREN,
+	CLPAREN12RPAREN,
+	CLPAREN13RPAREN,
+	CLPAREN14RPAREN,
+	CLPAREN15RPAREN,
+	CLPAREN16RPAREN,
+	CLPAREN17RPAREN,
+	CLPAREN18RPAREN,
+	CLPAREN19RPAREN;
+}

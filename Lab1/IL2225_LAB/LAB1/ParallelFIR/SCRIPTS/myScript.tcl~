@@ -1,0 +1,21 @@
+####### Set Directary #########
+
+######Enviroment############
+
+######Read Design###########
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/misc.vhd}
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/myPackage.vhd}
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/CoeffRom.vhd}
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/FSM.vhd}
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/shiftRegister.vhd}
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/MAC.vhd}
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/ArithUnit.vhd}
+analyze -format vhdl -lib WORK {/home/nasim/myteaching/asic_2012/labs/ASICLABS/myFIR/FullyParallel3/dc/SOURCE/TopFIR.vhd.vhd}
+
+elaborate Top_Parallel_FIR -lib WORK
+
+create_clock -name "clk" -period 200 -waveform { 100 200  }  { clk  }
+set_false_path -setup -reset_path  -from { rst_n }
+set_false_path -hold -reset_path  -from { rst_n }
+
+compile -map_effort medium

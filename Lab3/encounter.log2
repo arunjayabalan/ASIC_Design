@@ -1,0 +1,724 @@
+Checking out Encounter license ...
+Encounter_Digital_Impl_Sys_XL 14.1 license checkout succeeded.
+You can run 2 CPU jobs with the base license that is currently checked out.
+If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+SGN Version : 10.10-p122 (27-Nov-2013) (64 bit executable)
+This Encounter release has been compiled with OA version 22.43-p033.
+
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v14.13-s036_1 (64bit) 08/14/2014 18:19 (Linux 2.6)
+@(#)CDS: NanoRoute v14.13-s019 NR140805-0429/14_13-UB (database version 2.30, 237.6.1) {superthreading v1.19}
+@(#)CDS: CeltIC v14.13-s013_1 (64bit) 08/14/2014 12:47:36 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 14.13-s010 (64bit) 08/14/2014 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 14.13-s011_1 (64bit) Aug 14 2014 10:00:19 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v14.13-s029
+@(#)CDS: IQRC/TQRC 13.2.0-s451 (64bit) Tue Jul 22 19:06:40 PDT 2014 (Linux 2.6.18-194.el5)
+--- Starting "Encounter v14.13-s036_1" on Wed Dec  2 17:13:17 2015 (mem=96.6M) ---
+--- Running on malavita.it.kth.se (x86_64 w/Linux 2.6.18-406.el5) ---
+This version was compiled on Thu Aug 14 18:19:25 PDT 2014.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+Loading global variable file /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/FIR_Toplevel_5.globals ...
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR3D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR3D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR3D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR3D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (EMS-63):	Message <ENCLF-200> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message
+by using the setMessageLimit <number> command.
+The message limit can be removed by using the unsetMessageLimit command.
+Note that setting a very large number using the setMessageLimit command
+or removing the message limit using the unsetMessageLimit command can
+significantly increase the log file size.
+To suppress a message, use the suppressMessage command.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (EMS-63):	Message <ENCLF-201> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message
+by using the setMessageLimit <number> command.
+The message limit can be removed by using the unsetMessageLimit command.
+Note that setting a very large number using the setMessageLimit command
+or removing the message limit using the unsetMessageLimit command can
+significantly increase the log file size.
+To suppress a message, use the suppressMessage command.
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN1 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN2 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN3 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN4 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN5 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN6 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN7 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN8 GENERATE
+**WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN9 GENERATE
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D0' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D8' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D0' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D8' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D0' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D8' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D0' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D1' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D2' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D4' is not defined in the library.
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO21D0' is not defined in the library.
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.14min, fe_real=1.65min, fe_mem=409.2M) ***
+Loading preference file /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/enc.pref.tcl ...
+Loading mode file /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/FIR_Toplevel_5.mode ...
+AV_WC_RCWORST AV_BC_RCBEST
+AV_WC_RCWORST AV_BC_RCBEST
+**WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M1 and M2 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M2 and M3 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M3 and M4 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M4 and M5 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M5 and M6 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M6 and M7 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M7 and M8 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M8 and M9 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.105 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M8 is not defined in the cap table. LEF value 0.025 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M9 is not defined in the cap table. LEF value 0.025 will be used.
+**WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M1 and M2 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M2 and M3 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M3 and M4 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M4 and M5 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M5 and M6 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M6 and M7 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M7 and M8 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2776):	The via resistance between layers M8 and M9 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.105 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in the cap table. LEF value 0.078 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M8 is not defined in the cap table. LEF value 0.025 will be used.
+**WARN: (ENCEXT-2766):	Sheet resistance for layer M9 is not defined in the cap table. LEF value 0.025 will be used.
+FIR_Toplevel_5
+AV_WC_RCWORST AV_BC_RCBEST
+AV_WC_RCWORST AV_BC_RCBEST
+AV_WC_RCWORST AV_BC_RCBEST
+AV_WC_RCWORST AV_BC_RCBEST
+Loading place ...
+Loading route ...
+<CMD> read_activity_file -format VCD ./VCDFile.vcd -scope tb_FIR -start 0ns -end 354ns
+'read_activity_file' finished successfully.
+<CMD> report_power -hierarchy 0
+AV_WC_RCWORST AV_BC_RCBEST
+
+Power Net Detected:
+    Voltage	    Name
+    0.00V	    VSS
+    0.90V	    VDD
+#################################################################################
+# Design Stage: PostRoute
+# Design Mode: 90nm
+# Analysis Mode: MMMC non-OCV
+# Extraction Mode: default
+# Delay Calculation Options: engine=aae signOff=true SIAware=false(opt_signoff)
+# Switching Delay Calculation Engine to AAE
+#################################################################################
+Extraction called for design 'FIR_Toplevel_5' of instances=1811 and nets=686 using extraction engine 'preRoute' .
+**WARN: (ENCEXT-3530):	Use of command 'setDesignMode -process <process_node>' prior to extraction is recommended for maximum accuracy and optimal automatic threshold setting.
+PreRoute RC Extraction called for design FIR_Toplevel_5.
+RC Extraction called in multi-corner(2) mode.
+**WARN: (ENCEXT-6197):	Capacitance table file not specified. This will result in lower parasitic accuracy using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the capacitance table file using 'generateCapTbl' command and specify it before extraction.
+RCMode: PreRoute
+      RC Corner Indexes            0       1   
+Capacitance Scaling Factor   : 1.00000 1.00000 
+Resistance Scaling Factor    : 1.00000 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 1.00000 
+Clock Res. Scaling Factor    : 1.00000 1.00000 
+Shrink Factor                : 1.00000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Initializing multi-corner resistance tables ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 598.359M)
+Calculate delays in Single mode...
+Topological Sorting (CPU = 0:00:00.0, MEM = 627.2M, InitMEM = 627.2M)
+siFlow : Timing analysis mode is single, using late cdB files
+ AAE_INFO: Swapping Delay calculation library interface data to disk.
+*** Memory pool thread-safe mode activated.
+AAE_THRD: End delay calculation. (MEM=679.516 CPU=0:00:00.1 REAL=0:00:00.0)
+*** CDM Built up (cpu=0:00:00.8  real=0:00:00.0  mem= 679.5M) ***
+
+Begin Power Analysis
+
+AV_WC_RCWORST AV_BC_RCBEST
+    0.00V	    VSS
+    0.90V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=599.75MB/599.76MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+clk(250MHz) Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=599.82MB/599.82MB)
+
+Parsing VCD file ./VCDFile.vcd
+
+Starting Reading VCD variables
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT)
+
+Finished Reading VCD variables
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT)
+
+Starting Reading VCD toggles
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT)
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 10%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 20%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 30%
+   
+The vcd command required:
+   		0.02 user, 0.00 system, and 0.02 real seconds
+
+   Total number of value changes: 0.
+
+   Total simulation time: 1.2e-07s.
+
+   With this vcd command,  0 value changes and 1.1e-07 second simulation
+time were counted for power consumption calculation.
+** INFO:  (VOLTUS_POWR-2051): The last time stamp 1.2e-07 in the vcd file ./VCDFile.vcd is smaller than the window end time 3.54e-07. The last time tamp is honorned in power calculation. 
+
+
+  Filename (activity)                    : ./VCDFile.vcd
+  Names in file that matched to design   : 0/4242
+  Annotation coverage for this file      : 0/670 = 0%
+
+  4242 nets were found in the VCD file(s) but were not in
+  the design.  These nets are not reported because
+  'read_activity_file -report_missing_nets' is set to false (default).
+
+  Total annotation coverage for all files of type VCD: 0/670 = 0%
+  Percent of VCD annotated nets with zero toggles: 0/670 = 0%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=600.12MB/600.12MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT)
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 10%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 20%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 30%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 40%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 50%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 60%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 70%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 80%
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT): 90%
+
+Finished Levelizing
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT)
+
+Starting Activity Propagation
+2015-Dec-02 17:22:17 (2015-Dec-02 16:22:17 GMT)
+** INFO:  (VOLTUS_POWR-1356): No default input activity has been set. Defaulting to 0.2.
+Use 'set_default_switching_activity -input_activity' command to change the default activity value.
+
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 10%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 20%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 30%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 40%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 50%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 60%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 70%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 80%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 90%
+
+Finished Activity Propagation
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 1/7 = 14.2857%
+          Flop outputs : 0/149 = 0%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 1/670 = 0.149254%
+
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=600.36MB/600.36MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT)
+ ... Calculating switching power
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 10%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 20%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 30%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 40%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 50%
+ ... Calculating internal and leakage power
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 60%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 70%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 80%
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT): 90%
+
+Finished Calculating power
+2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=600.70MB/600.70MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=600.73MB/600.73MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=600.73MB/600.73MB)
+
+*----------------------------------------------------------------------------------------
+*	Encounter 14.13-s036_1 (64bit) 08/14/2014 18:19 (Linux 2.6)
+*	
+*
+* 	Date & Time:	2015-Dec-02 17:22:18 (2015-Dec-02 16:22:18 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: FIR_Toplevel_5
+*
+*	Liberty Libraries used:
+*	        /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/libs/mmmc/tcbn90gwc.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.9
+*
+*	Switching Activity File used:
+*	        ./VCDFile.vcd
+*		      Vcd Window used(Start Time, Stop Time):  (0,354) 
+*                Vcd Scale Factor: 1
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power -hierarchy 0
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.54707421 	   73.1730%
+Total Switching Power:       0.17774608 	   23.7741%
+Total Leakage Power:         0.02282487 	    3.0529%
+Total Power:                 0.74764517
+-----------------------------------------------------------------------------------------
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:                clk__L3_I0 (CKND8): 	   0.06917
+* 		Highest Leakage Power:                clk__L1_I0 (CKND24): 	 0.0004674
+* 		Total Cap: 	3.97765e-12 F
+* 		Total instances in design:   712
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:    99
+-----------------------------------------------------------------------------------------
+ 
+<CMD> report_power -hierarchy 0 > Power_50Samples
+
+Usage: report_power [-help] [-cap] [-cell <string>] [-cell_type <string>]
+                    [-clock_domain <string>] [-clock_gating_efficiency]
+                    [-clock_network <string>] [-cluster_gating_efficiency]
+                    [-count_seq_elements_in_clock_network] [-hierarchy <string>]
+                    [-instances <string>] [-leakage] [-net] [-no_wrap]
+                    [-nworst <string>] [-outfile <string>] [-pg_net <string>]
+                    [-power_domain <string>] [-rail_analysis_format <string>]
+                    [-register_gating_efficiency] [-sort <string>]
+                    [-thermal_leakage_temp <string>]
+                    [-thermal_power_map_file <string>]
+                    [-thermal_power_map_tile <string>] [-threshold <string>]
+                    [-threshold_voltage_group <string>]
+                    [-timing_report <string>] [-view <string>]
+
+**ERROR: (ENCTCM-48):	">" is not a legal option for command "report_power". Either the current option or an option prior to it is not specified correctly.
+
+<CMD> report_power -hierarchy 0 > ./Power_50Samples.log
+
+Usage: report_power [-help] [-cap] [-cell <string>] [-cell_type <string>]
+                    [-clock_domain <string>] [-clock_gating_efficiency]
+                    [-clock_network <string>] [-cluster_gating_efficiency]
+                    [-count_seq_elements_in_clock_network] [-hierarchy <string>]
+                    [-instances <string>] [-leakage] [-net] [-no_wrap]
+                    [-nworst <string>] [-outfile <string>] [-pg_net <string>]
+                    [-power_domain <string>] [-rail_analysis_format <string>]
+                    [-register_gating_efficiency] [-sort <string>]
+                    [-thermal_leakage_temp <string>]
+                    [-thermal_power_map_file <string>]
+                    [-thermal_power_map_tile <string>] [-threshold <string>]
+                    [-threshold_voltage_group <string>]
+                    [-timing_report <string>] [-view <string>]
+
+**ERROR: (ENCTCM-48):	">" is not a legal option for command "report_power". Either the current option or an option prior to it is not specified correctly.
+
+<CMD> report_power -hierarchy 0
+*----------------------------------------------------------------------------------------
+*	Encounter 14.13-s036_1 (64bit) 08/14/2014 18:19 (Linux 2.6)
+*	
+*
+* 	Date & Time:	2015-Dec-02 17:23:23 (2015-Dec-02 16:23:23 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: FIR_Toplevel_5
+*
+*	Liberty Libraries used:
+*	        /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/libs/mmmc/tcbn90gwc.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.9
+*
+*	Switching Activity File used:
+*	        ./VCDFile.vcd
+*		      Vcd Window used(Start Time, Stop Time):  (0,354) 
+*                Vcd Scale Factor: 1
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power -hierarchy 0
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.54707421 	   73.1730%
+Total Switching Power:       0.17774608 	   23.7741%
+Total Leakage Power:         0.02282487 	    3.0529%
+Total Power:                 0.74764517
+-----------------------------------------------------------------------------------------
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:                clk__L3_I0 (CKND8): 	   0.06917
+* 		Highest Leakage Power:                clk__L1_I0 (CKND24): 	 0.0004674
+* 		Total Cap: 	3.97765e-12 F
+* 		Total instances in design:   712
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:    99
+-----------------------------------------------------------------------------------------
+ 
+<CMD> read_activity_file -format VCD ./VCD_File_5000.vcd -scope tb_FIR -start 0ns -end 12000ns
+'read_activity_file' finished successfully.
+<CMD> report_power -hierarchy 0
+
+Begin Power Analysis
+
+AV_WC_RCWORST AV_BC_RCBEST
+    0.00V	    VSS
+    0.90V	    VDD
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=601.18MB/601.18MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=601.18MB/601.18MB)
+
+Parsing VCD file ./VCDFile.vcd
+
+Starting Reading VCD variables
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+
+Finished Reading VCD variables
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+
+Starting Reading VCD toggles
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 10%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 20%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 30%
+   
+The vcd command required:
+   		0.02 user, 0.00 system, and 0.02 real seconds
+
+   Total number of value changes: 0.
+
+   Total simulation time: 1.2e-07s.
+
+   With this vcd command,  0 value changes and 1.1e-07 second simulation
+time were counted for power consumption calculation.
+** INFO:  (VOLTUS_POWR-2051): The last time stamp 1.2e-07 in the vcd file ./VCDFile.vcd is smaller than the window end time 3.54e-07. The last time tamp is honorned in power calculation. 
+
+
+  Filename (activity)                    : ./VCDFile.vcd
+  Names in file that matched to design   : 0/4242
+  Annotation coverage for this file      : 0/670 = 0%
+
+Parsing VCD file ./VCD_File_5000.vcd
+
+Starting Reading VCD variables
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+
+Finished Reading VCD variables
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+
+Starting Reading VCD toggles
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 10%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 20%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 30%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 40%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 50%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 60%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 70%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 80%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 90%
+   
+The vcd command required:
+   		0.24 user, 0.00 system, and 0.24 real seconds
+
+   Total number of value changes: 0.
+
+   Total simulation time: 1.2e-05s.
+
+   With this vcd command,  0 value changes and 1.1e-07 second simulation
+time were counted for power consumption calculation.
+
+  Filename (activity)                    : ./VCD_File_5000.vcd
+  Names in file that matched to design   : 0/4257
+  Annotation coverage for this file      : 0/670 = 0%
+
+  8499 nets were found in the VCD file(s) but were not in
+  the design.  These nets are not reported because
+  'read_activity_file -report_missing_nets' is set to false (default).
+
+  Total annotation coverage for all files of type VCD: 0/670 = 0%
+  Percent of VCD annotated nets with zero toggles: 0/670 = 0%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=601.18MB/601.18MB)
+
+Begin Processing Signal Activity
+
+
+Starting Activity Propagation
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 10%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 20%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 30%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 40%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 50%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 60%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 70%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 80%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 90%
+
+Finished Activity Propagation
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 1/7 = 14.2857%
+          Flop outputs : 0/149 = 0%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 1/670 = 0.149254%
+
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=601.18MB/601.18MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT)
+ ... Calculating switching power
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 10%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 20%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 30%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 40%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 50%
+ ... Calculating internal and leakage power
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 60%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 70%
+2015-Dec-02 17:40:01 (2015-Dec-02 16:40:01 GMT): 80%
+2015-Dec-02 17:40:02 (2015-Dec-02 16:40:02 GMT): 90%
+
+Finished Calculating power
+2015-Dec-02 17:40:02 (2015-Dec-02 16:40:02 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=601.18MB/601.18MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=601.18MB/601.18MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=601.18MB/601.18MB)
+
+*----------------------------------------------------------------------------------------
+*	Encounter 14.13-s036_1 (64bit) 08/14/2014 18:19 (Linux 2.6)
+*	
+*
+* 	Date & Time:	2015-Dec-02 17:40:02 (2015-Dec-02 16:40:02 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: FIR_Toplevel_5
+*
+*	Liberty Libraries used:
+*	        /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/libs/mmmc/tcbn90gwc.lib
+*
+*	Power Domain used:
+*		Rail:        VDD 	Voltage:        0.9
+*
+*	Switching Activity File used:
+*	        ./VCDFile.vcd
+*		      Vcd Window used(Start Time, Stop Time):  (0,354) 
+*                Vcd Scale Factor: 1
+*	        ./VCD_File_5000.vcd
+*		      Vcd Window used(Start Time, Stop Time):  (0,12000) 
+*                Vcd Scale Factor: 1
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power -hierarchy 0
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.54707421 	   73.1730%
+Total Switching Power:       0.17774608 	   23.7741%
+Total Leakage Power:         0.02282487 	    3.0529%
+Total Power:                 0.74764517
+-----------------------------------------------------------------------------------------
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:                clk__L3_I0 (CKND8): 	   0.06917
+* 		Highest Leakage Power:                clk__L1_I0 (CKND24): 	 0.0004674
+* 		Total Cap: 	3.97765e-12 F
+* 		Total instances in design:   712
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:    99
+-----------------------------------------------------------------------------------------
+ 
+
+*** Memory Usage v#1 (Current mem = 679.516M, initial mem = 96.617M) ***
+*** Message Summary: 2886 warning(s), 2 error(s)
+
+--- Ending "Encounter" (totcpu=0:00:14.7, real=0:29:32, mem=679.5M) ---

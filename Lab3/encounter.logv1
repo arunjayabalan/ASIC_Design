@@ -1,0 +1,204 @@
+Checking out Encounter license ...
+[12/02 10:06:39     0s] Encounter_Digital_Impl_Sys_XL 14.1 license checkout succeeded.
+[12/02 10:06:39     0s] You can run 2 CPU jobs with the base license that is currently checked out.
+[12/02 10:06:39     0s] If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+[12/02 10:06:39     0s] SGN Version : 10.10-p122 (27-Nov-2013) (64 bit executable)
+[12/02 10:06:41     0s] This Encounter release has been compiled with OA version 22.43-p033.
+[12/02 10:06:43     1s] 
+[12/02 10:06:45     2s] *******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+[12/02 10:07:05     4s] @(#)CDS: Encounter v14.13-s036_1 (64bit) 08/14/2014 18:19 (Linux 2.6)
+[12/02 10:07:05     4s] @(#)CDS: NanoRoute v14.13-s019 NR140805-0429/14_13-UB (database version 2.30, 237.6.1) {superthreading v1.19}
+[12/02 10:07:05     4s] @(#)CDS: CeltIC v14.13-s013_1 (64bit) 08/14/2014 12:47:36 (Linux 2.6.18-194.el5)
+[12/02 10:07:05     4s] @(#)CDS: AAE 14.13-s010 (64bit) 08/14/2014 (Linux 2.6.18-194.el5)
+[12/02 10:07:05     4s] @(#)CDS: CTE 14.13-s011_1 (64bit) Aug 14 2014 10:00:19 (Linux 2.6.18-194.el5)
+[12/02 10:07:05     4s] @(#)CDS: CPE v14.13-s029
+[12/02 10:07:05     4s] @(#)CDS: IQRC/TQRC 13.2.0-s451 (64bit) Tue Jul 22 19:06:40 PDT 2014 (Linux 2.6.18-194.el5)
+[12/02 10:07:05     4s] --- Starting "Encounter v14.13-s036_1" on Wed Dec  2 10:07:05 2015 (mem=96.6M) ---
+[12/02 10:07:05     4s] --- Running on malavita.it.kth.se (x86_64 w/Linux 2.6.18-406.el5) ---
+[12/02 10:07:05     4s] This version was compiled on Thu Aug 14 18:19:25 PDT 2014.
+[12/02 10:07:05     4s] Set DBUPerIGU to 1000.
+[12/02 10:07:05     4s] Set net toggle Scale Factor to 1.00
+[12/02 10:07:05     4s] Set Shrink Factor to 1.00000
+[12/02 10:07:05     4s] 
+[12/02 10:07:06     5s] **INFO:  MMMC transition support version v31-84 
+[12/02 10:07:06     5s] 
+[12/02 10:07:06     5s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/02 10:07:06     5s] <CMD> suppressMessage ENCEXT-2799
+[12/02 10:07:06     5s] <CMD> win
+[12/02 10:07:06     5s] <CMD> encMessage warning 0
+[12/02 10:07:58     5s] Suppress "**WARN ..." messages.
+[12/02 10:07:58     5s] <CMD> encMessage debug 0
+[12/02 10:07:58     5s] <CMD> encMessage info 0
+[12/02 10:07:58     5s] Loading global variable file /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/FIR_Toplevel_5.globals ...
+[12/02 10:07:58     5s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D1' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR4D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A4' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR4D0' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR3D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A2' in macro 'XOR3D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A1' in macro 'XOR3D4' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-200):	Pin 'A3' in macro 'XOR3D2' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (EMS-63):	Message <ENCLF-200> has exceeded the default message display limit of 20.
+[12/02 10:07:59     6s] To avoid this warning, increase the display limit per unique message
+[12/02 10:07:59     6s] by using the setMessageLimit <number> command.
+[12/02 10:07:59     6s] The message limit can be removed by using the unsetMessageLimit command.
+[12/02 10:07:59     6s] Note that setting a very large number using the setMessageLimit command
+[12/02 10:07:59     6s] or removing the message limit using the unsetMessageLimit command can
+[12/02 10:07:59     6s] significantly increase the log file size.
+[12/02 10:07:59     6s] To suppress a message, use the suppressMessage command.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR3D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'Z' in macro 'XOR2D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR4D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (ENCLF-201):	Pin 'ZN' in macro 'XNR3D0' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/02 10:07:59     6s] **WARN: (EMS-63):	Message <ENCLF-201> has exceeded the default message display limit of 20.
+[12/02 10:07:59     6s] To avoid this warning, increase the display limit per unique message
+[12/02 10:07:59     6s] by using the setMessageLimit <number> command.
+[12/02 10:07:59     6s] The message limit can be removed by using the unsetMessageLimit command.
+[12/02 10:07:59     6s] Note that setting a very large number using the setMessageLimit command
+[12/02 10:07:59     6s] or removing the message limit using the unsetMessageLimit command can
+[12/02 10:07:59     6s] significantly increase the log file size.
+[12/02 10:07:59     6s] To suppress a message, use the suppressMessage command.
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN1 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN2 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN3 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN4 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN5 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN6 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN7 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN8 GENERATE
+[12/02 10:07:59     6s] **WARN: (ENCPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from LEF file: VIARULE TURN9 GENERATE
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D0' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D1' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D2' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D4' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D8' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D0' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D1' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D2' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D4' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D8' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D0' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D1' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D2' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D4' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D8' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D0' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D1' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D2' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO211D4' is not defined in the library.
+[12/02 10:07:59     6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AO21D0' is not defined in the library.
+[12/02 10:07:59     6s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.13min, fe_real=1.37min, fe_mem=415.0M) ***
+[12/02 10:08:01     8s] Loading preference file /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/enc.pref.tcl ...
+[12/02 10:08:01     8s] Loading mode file /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/FIR_Toplevel_5.mode ...
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M1 and M2 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M2 and M3 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M3 and M4 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M4 and M5 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M5 and M6 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M6 and M7 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M7 and M8 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M8 and M9 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.105 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M8 is not defined in the cap table. LEF value 0.025 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M9 is not defined in the cap table. LEF value 0.025 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M1 and M2 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M2 and M3 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M3 and M4 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M4 and M5 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M5 and M6 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M6 and M7 is not defined in the capacitance table file. The via resistance of 1.6 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M7 and M8 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2776):	The via resistance between layers M8 and M9 is not defined in the capacitance table file. The via resistance of 0.45 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M1 is not defined in the cap table. LEF value 0.105 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M2 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M3 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M4 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M5 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M6 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M7 is not defined in the cap table. LEF value 0.078 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M8 is not defined in the cap table. LEF value 0.025 will be used.
+[12/02 10:08:01     8s] **WARN: (ENCEXT-2766):	Sheet resistance for layer M9 is not defined in the cap table. LEF value 0.025 will be used.
+[12/02 10:08:01     8s] Loading place ...
+[12/02 10:08:04    10s] Loading route ...
+[12/02 10:08:04    10s] <CMD> displayClockPhaseDelay -preRoute
+[12/02 10:08:23    11s] Redoing specifyClockTree ...
+[12/02 10:08:23    11s] Checking spec file integrity...
+[12/02 10:08:23    11s] 
+[12/02 10:08:23    11s] displayClockPhaseDelay Option :  -preRoute 
+[12/02 10:08:23    11s] **WARN: (ENCTS-403):	Delay calculation was forced to extrapolate table data outside of the characterized range. In some cases, extrapolation can reduce the accuracy of the delay calculation. You can enable more detailed reporting of these cases by enabling the command 'setDelayCalMode -reportOutBound true'.
+[12/02 10:08:23    11s] Type 'man ENCTS-403' for more detail.
+[12/02 10:08:23    11s] <CMD> setDrawView place
+[12/02 10:08:38    11s] <CMD> setDrawView place
+[12/02 10:08:38    11s] <CMD> selectWire 58.0000 56.0000 60.0000 66.0000 8 VSS
+[12/02 10:08:52    11s] 
+[12/02 10:08:54    11s] *** Memory Usage v#1 (Current mem = 617.727M, initial mem = 96.617M) ***
+[12/02 10:08:54    11s] 
+[12/02 10:08:54    11s] *** Summary of all messages that are not suppressed in this session:
+[12/02 10:08:54    11s] Severity  ID               Count  Summary                                  
+[12/02 10:08:54    11s] WARNING   ENCLF-200         2088  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[12/02 10:08:54    11s] WARNING   ENCLF-201          751  Pin '%s' in macro '%s' has no ANTENNADIF...
+[12/02 10:08:54    11s] WARNING   ENCTS-403            1  Delay calculation was forced to extrapol...
+[12/02 10:08:54    11s] WARNING   ENCEXT-2766         18  Sheet resistance for layer %s is not def...
+[12/02 10:08:54    11s] WARNING   ENCEXT-2773          2  The via resistance between layers %s and...
+[12/02 10:08:54    11s] WARNING   ENCEXT-2776         16  The via resistance between layers %s and...
+[12/02 10:08:54    11s] WARNING   ENCPP-557            9  A single-layer VIARULE GENERATE for turn...
+[12/02 10:08:54    11s] *** Message Summary: 2885 warning(s), 0 error(s)
+[12/02 10:08:54    11s] 
+[12/02 10:08:54    11s] --- Ending "Encounter" (totcpu=0:00:11.5, real=0:02:15, mem=617.7M) ---
+[12/02 10:08:54    11s] 

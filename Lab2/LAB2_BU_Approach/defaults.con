@@ -1,0 +1,3 @@
+set_wire_load_mode top;
+set_wire_load_model -name TSMC8K_Lowk_Conservative;
+set_operating_conditions "NCCOM";

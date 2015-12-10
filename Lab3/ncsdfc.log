@@ -1,0 +1,4 @@
+ncsdfc: 14.10-s004: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+	Reading SDF file from location "/afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/Phy_FIR.sdf"
+ncsdfc: Memory Usage - 13.4M program + 4.3M data = 17.7M total
+ncsdfc: CPU Usage - 0.0s system + 0.0s user = 0.1s total (0.1s, 98.1% cpu)

@@ -1,0 +1,135 @@
+*----------------------------------------------------------------------------------------
+*       Encounter 14.13-s036_1 (64bit) 08/14/2014 18:19 (Linux 2.6)
+*
+*
+*       Date & Time:    2015-Dec-02 17:23:23 (2015-Dec-02 16:23:23 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*       Design: FIR_Toplevel_5
+*
+*       Liberty Libraries used:
+*               /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/libs/mmmc/tcbn90gwc.lib
+*
+*       Power Domain used:
+*               Rail:        VDD        Voltage:        0.9
+*
+*       Power View : AV_WC_RCWORST
+*
+*       User-Defined Activity : N.A.
+*
+*       Switching Activity File used:
+*               ./VCDFile.vcd
+*                     Vcd Window used(Start Time, Stop Time):  (0,354)
+*                Vcd Scale Factor: 1
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*       Power Units = 1mW
+*
+*       Time Units = 1e-09 secs
+*
+*       report_power -hierarchy 0
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.54707421            73.1730%
+Total Switching Power:       0.17774608            23.7741%
+Total Leakage Power:         0.02282487             3.0529%
+Total Power:                 0.74764517
+-----------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------
+*       Power Distribution Summary:
+*               Highest Average Power:                clk__L3_I0 (CKND8):          0.06917
+*               Highest Leakage Power:                clk__L1_I0 (CKND24):       0.0004674
+*               Total Cap:      3.97765e-12 F
+*               Total instances in design:   712
+*               Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+*               Total Fillers and Decap:    99
+-----------------------------------------------------------------------------------------
+
+*----------------------------------------------------------------------------------------
+*       Encounter 14.13-s036_1 (64bit) 08/14/2014 18:19 (Linux 2.6)
+*
+*
+*       Date & Time:    2015-Dec-02 17:23:23 (2015-Dec-02 16:23:23 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*       Design: FIR_Toplevel_5
+*
+*       Liberty Libraries used:
+*               /afs/kth.se/home/a/r/arunj/IL2225/Lab/Lab3/FIR_Toplevel_5.enc.dat/libs/mmmc/tcbn90gwc.lib
+*
+*       Power Domain used:
+*               Rail:        VDD        Voltage:        0.9
+*
+*       Power View : AV_WC_RCWORST
+*
+*       User-Defined Activity : N.A.
+*
+*       Switching Activity File used:
+*               ./VCDFile.vcd
+*                     Vcd Window used(Start Time, Stop Time):  (0,354)
+*                Vcd Scale Factor: 1
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*       Power Units = 1mW
+*
+*       Time Units = 1e-09 secs
+*
+*       report_power -hierarchy 0
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.54707421            73.1730%
+Total Switching Power:       0.17774608            23.7741%
+Total Leakage Power:         0.02282487             3.0529%
+Total Power:                 0.74764517
+-----------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------
+*       Power Distribution Summary:
+*               Highest Average Power:                clk__L3_I0 (CKND8):          0.06917
+*               Highest Leakage Power:                clk__L1_I0 (CKND24):       0.0004674
+*               Total Cap:      3.97765e-12 F
+*               Total instances in design:   712
+*               Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+*               Total Fillers and Decap:    99
+-----------------------------------------------------------------------------------------
+
+

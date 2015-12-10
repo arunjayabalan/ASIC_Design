@@ -1,0 +1,75 @@
+operation(op0)  {
+	function mul;
+	read data_in,const_98;
+	write temp;
+}
+operation(op1)  {
+	function mul;
+	read XLPAREN1RPAREN,CoeffsLPAREN6RPAREN;
+	write fir_1674;
+}
+operation(op2)  {
+	function mul;
+	read CoeffsLPAREN5RPAREN,XLPAREN2RPAREN;
+	write fir_1674000001;
+}
+operation(op3)  {
+	function mul;
+	read CoeffsLPAREN4RPAREN,XLPAREN3RPAREN;
+	write fir_1674000002;
+}
+operation(op4)  {
+	function mul;
+	read CoeffsLPAREN3RPAREN,XLPAREN4RPAREN;
+	write fir_1674000003;
+}
+operation(op5)  {
+	function mul;
+	read XLPAREN5RPAREN,CoeffsLPAREN2RPAREN;
+	write fir_1674000004;
+}
+operation(op6)  {
+	function mul;
+	read CoeffsLPAREN1RPAREN,XLPAREN6RPAREN;
+	write fir_1674000005;
+}
+operation(op7)  {
+	function add;
+	read fir_1674000001,fir_1674;
+	write temp000001;
+}
+operation(op8)  {
+	function add;
+	read temp000001,fir_1674000002;
+	write temp000002;
+}
+operation(op9)  {
+	function add;
+	read temp000002,fir_1674000003;
+	write temp000003;
+}
+operation(op10)  {
+	function add;
+	read temp000003,fir_1674000004;
+	write temp000004;
+}
+operation(op11)  {
+	function add;
+	read temp000004,fir_1674000005;
+	write temp000005;
+}
+operation(op12)  {
+	function add;
+	read temp000005,temp;
+	write temp000006;
+}
+operation(op13)  {
+	function mul;
+	read CoeffsLPAREN0RPAREN,XLPAREN7RPAREN;
+	write fir_1674000006;
+}
+operation(op14)  {
+	function add;
+	read fir_1674000006,temp000006;
+	write data_out;
+}

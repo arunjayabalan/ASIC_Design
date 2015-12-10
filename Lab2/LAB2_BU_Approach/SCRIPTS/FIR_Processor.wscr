@@ -1,0 +1,215 @@
+###################################################################
+
+# Created by write_script -format dctcl on Tue Dec  8 12:45:25 2015
+
+###################################################################
+
+# Set the current_design #
+current_design FIR_Processor
+
+set_units -time ns -resistance kOhm -capacitance pF -voltage V -current mA
+set_operating_conditions NCCOM -library tcbn90gtc
+set_wire_load_mode top
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc
+set_wire_load_selection_group WireAreaForZero
+set_local_link_library {tcbn90gtc.db}
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports rst_n]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports clk]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports sample_clk]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_delay_in[3]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_delay_in[2]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_delay_in[1]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {sample_delay_in[0]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {coeficient[3]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {coeficient[2]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {coeficient[1]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {coeficient[0]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {coef_addr[2]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {coef_addr[1]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {coef_addr[0]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports dav]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {outp[3]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {outp[2]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {outp[1]}]
+set_wire_load_model -name TSMC8K_Lowk_Conservative -library tcbn90gtc          \
+[get_ports {outp[0]}]
+set_driving_cell -lib_cell LHD1 -library tcbn90gtc -pin Q -from_pin D          \
+-input_transition_rise 0.10258 -input_transition_fall 0.0656283                \
+-no_design_rule [get_ports {sample_delay_in[3]}]
+set_driving_cell -lib_cell LHD1 -library tcbn90gtc -pin Q -from_pin D          \
+-input_transition_rise 0.10258 -input_transition_fall 0.0656283                \
+-no_design_rule [get_ports {sample_delay_in[2]}]
+set_driving_cell -lib_cell LHD1 -library tcbn90gtc -pin Q -from_pin D          \
+-input_transition_rise 0.10258 -input_transition_fall 0.0656283                \
+-no_design_rule [get_ports {sample_delay_in[1]}]
+set_driving_cell -lib_cell LHD1 -library tcbn90gtc -pin Q -from_pin D          \
+-input_transition_rise 0.10258 -input_transition_fall 0.0656283                \
+-no_design_rule [get_ports {sample_delay_in[0]}]
+set_driving_cell -rise -lib_cell DFCNQD1 -library tcbn90gtc -pin Q -from_pin   \
+CP -no_design_rule [get_ports {coeficient[3]}]
+set_driving_cell -fall -lib_cell DFCNQD1 -library tcbn90gtc -pin Q -from_pin   \
+CDN -input_transition_rise 0.542854 -input_transition_fall 0.381986            \
+-no_design_rule [get_ports {coeficient[3]}]
+set_driving_cell -rise -lib_cell AN2D0 -library tcbn90gtc -pin Z -from_pin A1  \
+-input_transition_rise 0.126211 -input_transition_fall 0.0703569               \
+-no_design_rule [get_ports {coeficient[2]}]
+set_driving_cell -fall -lib_cell AN2D0 -library tcbn90gtc -pin Z -from_pin A2  \
+-input_transition_rise 0.110604 -input_transition_fall 0.0628961               \
+-no_design_rule [get_ports {coeficient[2]}]
+set_driving_cell -rise -lib_cell XNR2D1 -library tcbn90gtc -pin ZN -from_pin   \
+A1 -input_transition_rise 0.0497824 -input_transition_fall 0.04402             \
+-no_design_rule [get_ports {coeficient[1]}]
+set_driving_cell -fall -lib_cell XNR2D1 -library tcbn90gtc -pin ZN -from_pin   \
+A2 -input_transition_rise 0.126211 -input_transition_fall 0.0703569            \
+-no_design_rule [get_ports {coeficient[1]}]
+set_driving_cell -lib_cell AOI21D0 -library tcbn90gtc -pin ZN -from_pin A1     \
+-input_transition_rise 0.0732244 -input_transition_fall 0.04458                \
+-no_design_rule [get_ports {coeficient[0]}]
+set_connection_class "default" [get_ports rst_n]
+set_connection_class "default" [get_ports clk]
+set_connection_class "default" [get_ports sample_clk]
+set_connection_class "default" [get_ports {sample_delay_in[3]}]
+set_connection_class "default" [get_ports {sample_delay_in[2]}]
+set_connection_class "default" [get_ports {sample_delay_in[1]}]
+set_connection_class "default" [get_ports {sample_delay_in[0]}]
+set_connection_class "default" [get_ports {coeficient[3]}]
+set_connection_class "default" [get_ports {coeficient[2]}]
+set_connection_class "default" [get_ports {coeficient[1]}]
+set_connection_class "default" [get_ports {coeficient[0]}]
+set_connection_class "default" [get_ports {coef_addr[2]}]
+set_connection_class "default" [get_ports {coef_addr[1]}]
+set_connection_class "default" [get_ports {coef_addr[0]}]
+set_connection_class "default" [get_ports dav]
+set_connection_class "default" [get_ports {outp[3]}]
+set_connection_class "default" [get_ports {outp[2]}]
+set_connection_class "default" [get_ports {outp[1]}]
+set_connection_class "default" [get_ports {outp[0]}]
+set_fanout_load 2 [get_ports {coef_addr[2]}]
+set_fanout_load 2 [get_ports {coef_addr[1]}]
+set_fanout_load 3 [get_ports {coef_addr[0]}]
+set_fanout_load 0 [get_ports dav]
+set_fanout_load 0 [get_ports {outp[3]}]
+set_fanout_load 0 [get_ports {outp[2]}]
+set_fanout_load 0 [get_ports {outp[1]}]
+set_fanout_load 0 [get_ports {outp[0]}]
+set_port_fanout_number 86 [get_ports rst_n]
+set_port_fanout_number 72 [get_ports clk]
+set_port_fanout_number 13 [get_ports sample_clk]
+set_port_fanout_number 2 [get_ports {coeficient[3]}]
+set_port_fanout_number 2 [get_ports {coef_addr[2]}]
+set_port_fanout_number 2 [get_ports {coef_addr[1]}]
+set_port_fanout_number 3 [get_ports {coef_addr[0]}]
+set_load -pin_load 0.2293 [get_ports rst_n]
+set_load -pin_load 0.1188 [get_ports clk]
+set_load -pin_load 0.0219 [get_ports sample_clk]
+set_load -pin_load 0.0039 [get_ports {coeficient[3]}]
+set_load -pin_load 0.0039 [get_ports {coef_addr[2]}]
+set_load -pin_load 0.0034 [get_ports {coef_addr[1]}]
+set_load -pin_load 0.005 [get_ports {coef_addr[0]}]
+set_max_capacitance 0.144 [get_ports {sample_delay_in[3]}]
+set_max_capacitance 0.144 [get_ports {sample_delay_in[2]}]
+set_max_capacitance 0.144 [get_ports {sample_delay_in[1]}]
+set_max_capacitance 0.144 [get_ports {sample_delay_in[0]}]
+set_max_capacitance 0.0628 [get_ports {coeficient[2]}]
+set_max_capacitance 0.144 [get_ports {coeficient[1]}]
+set_max_capacitance 0.0369 [get_ports {coeficient[0]}]
+set_max_transition 0.712 [get_ports rst_n]
+set_max_transition 0.712 [get_ports sample_clk]
+set_max_transition 0.712 [get_ports {sample_delay_in[3]}]
+set_max_transition 0.712 [get_ports {sample_delay_in[2]}]
+set_max_transition 0.712 [get_ports {sample_delay_in[1]}]
+set_max_transition 0.712 [get_ports {sample_delay_in[0]}]
+set_max_transition 0.712 [get_ports {coeficient[3]}]
+set_max_transition 0.712 [get_ports {coeficient[2]}]
+set_max_transition 0.712 [get_ports {coeficient[1]}]
+set_max_transition 0.712 [get_ports {coeficient[0]}]
+set_max_transition 0.712 [get_ports {coef_addr[2]}]
+set_max_transition 0.712 [get_ports {coef_addr[1]}]
+set_max_transition 0.712 [get_ports {coef_addr[0]}]
+create_clock [get_ports clk]  -period 2  -waveform {0 1}
+set_input_delay -clock clk  -rise 0  [get_ports clk]
+set_input_delay -clock clk  -clock_fall  -fall 0  -add_delay  [get_ports clk]
+set_input_delay -clock clk  -max -rise 0.238212  [get_ports {coeficient[0]}]
+set_input_delay -clock clk  -max -fall 0.206508  [get_ports {coeficient[0]}]
+set_input_delay -clock clk  -min -rise 0.163283  [get_ports {coeficient[0]}]
+set_input_delay -clock clk  -min -fall 0.16629  [get_ports {coeficient[0]}]
+set_input_delay -clock clk  -max -rise 0.265147  [get_ports {coeficient[1]}]
+set_input_delay -clock clk  -max -fall 0.261651  [get_ports {coeficient[1]}]
+set_input_delay -clock clk  -min -rise 0.225678  [get_ports {coeficient[1]}]
+set_input_delay -clock clk  -min -fall 0.215362  [get_ports {coeficient[1]}]
+set_input_delay -clock clk  -max -rise 0.230478  [get_ports {coeficient[2]}]
+set_input_delay -clock clk  -max -fall 0.209906  [get_ports {coeficient[2]}]
+set_input_delay -clock clk  -min -rise 0.219116  [get_ports {coeficient[2]}]
+set_input_delay -clock clk  -min -fall 0.20885  [get_ports {coeficient[2]}]
+set_input_delay -clock clk  -rise 0.109487  [get_ports {coeficient[3]}]
+set_input_delay -clock clk  -fall 0.103134  [get_ports {coeficient[3]}]
+set_input_delay -level_sensitive  -max -rise 0.0931678  [get_ports             \
+{sample_delay_in[0]}]
+set_input_delay -level_sensitive  -max -fall 0.0783429  [get_ports             \
+{sample_delay_in[0]}]
+set_input_delay -level_sensitive  -min -rise 0.0924201  [get_ports             \
+{sample_delay_in[0]}]
+set_input_delay -level_sensitive  -min -fall 0.0776356  [get_ports             \
+{sample_delay_in[0]}]
+set_input_delay -level_sensitive  -max -rise 0.0931678  [get_ports             \
+{sample_delay_in[1]}]
+set_input_delay -level_sensitive  -max -fall 0.0783429  [get_ports             \
+{sample_delay_in[1]}]
+set_input_delay -level_sensitive  -min -rise 0.0924201  [get_ports             \
+{sample_delay_in[1]}]
+set_input_delay -level_sensitive  -min -fall 0.0776356  [get_ports             \
+{sample_delay_in[1]}]
+set_input_delay -level_sensitive  -max -rise 0.0931678  [get_ports             \
+{sample_delay_in[2]}]
+set_input_delay -level_sensitive  -max -fall 0.0783429  [get_ports             \
+{sample_delay_in[2]}]
+set_input_delay -level_sensitive  -min -rise 0.0924201  [get_ports             \
+{sample_delay_in[2]}]
+set_input_delay -level_sensitive  -min -fall 0.0776356  [get_ports             \
+{sample_delay_in[2]}]
+set_input_delay -level_sensitive  -max -rise 0.0931678  [get_ports             \
+{sample_delay_in[3]}]
+set_input_delay -level_sensitive  -max -fall 0.0783429  [get_ports             \
+{sample_delay_in[3]}]
+set_input_delay -level_sensitive  -min -rise 0.0924201  [get_ports             \
+{sample_delay_in[3]}]
+set_input_delay -level_sensitive  -min -fall 0.0776356  [get_ports             \
+{sample_delay_in[3]}]
+set_input_delay 0  [get_ports sample_clk]
+set_input_delay 0  [get_ports rst_n]
+set_output_delay 0  [get_ports {outp[0]}]
+set_output_delay 0  [get_ports {outp[1]}]
+set_output_delay 0  [get_ports {outp[2]}]
+set_output_delay 0  [get_ports {outp[3]}]
+set_output_delay 0  [get_ports dav]
+set_output_delay -clock clk  -max -rise 0.949399  [get_ports {coef_addr[0]}]
+set_output_delay -clock clk  -max -fall 0.939776  [get_ports {coef_addr[0]}]
+set_output_delay -clock clk  -min -rise 0.254372  [get_ports {coef_addr[0]}]
+set_output_delay -clock clk  -min -fall 0.345616  [get_ports {coef_addr[0]}]
+set_output_delay -clock clk  -max -rise 0.960606  [get_ports {coef_addr[1]}]
+set_output_delay -clock clk  -max -fall 0.969915  [get_ports {coef_addr[1]}]
+set_output_delay -clock clk  -min -rise 0.364116  [get_ports {coef_addr[1]}]
+set_output_delay -clock clk  -min -fall 0.292667  [get_ports {coef_addr[1]}]
+set_output_delay -clock clk  -max -rise 0.84777  [get_ports {coef_addr[2]}]
+set_output_delay -clock clk  -max -fall 0.917937  [get_ports {coef_addr[2]}]
+set_output_delay -clock clk  -min -rise 0.25366  [get_ports {coef_addr[2]}]
+set_output_delay -clock clk  -min -fall 0.324304  [get_ports {coef_addr[2]}]
+1

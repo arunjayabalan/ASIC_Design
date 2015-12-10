@@ -1,0 +1,89 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Top_Serial_FIR
+Version: J-2014.09
+Date   : Sun Nov 15 15:49:05 2015
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: F1/adrR1_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: A1/tmp_result1_reg[23]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Top_Serial_FIR     TSMC8K_Lowk_Conservative
+                                           tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  F1/adrR1_reg[1]/CP (DFCNQD1)                            0.00       0.00 r
+  F1/adrR1_reg[1]/Q (DFCNQD1)                             0.17       0.17 r
+  F1/delayLineR1[1] (FSM)                                 0.00       0.17 r
+  D1/r_addr1[1] (delay_line)                              0.00       0.17 r
+  D1/U139/ZN (INVD1)                                      0.03       0.20 f
+  D1/U107/Z (AN2D0)                                       0.10       0.29 f
+  D1/U4/Z (AN2D0)                                         0.21       0.50 f
+  D1/U104/ZN (AOI222D0)                                   0.21       0.72 r
+  D1/U101/ZN (ND4D1)                                      0.09       0.81 f
+  D1/sample_out1[3] (delay_line)                          0.00       0.81 f
+  A1/sample1[3] (Arith_Unit)                              0.00       0.81 f
+  A1/MAC1/sample_in[3] (MAC)                              0.00       0.81 f
+  A1/MAC1/mult_16/a[3] (MAC_DW_mult_tc_0)                 0.00       0.81 f
+  A1/MAC1/mult_16/U230/ZN (INVD1)                         0.18       0.99 r
+  A1/MAC1/mult_16/U225/Z (XOR2D1)                         0.23       1.22 r
+  A1/MAC1/mult_16/U221/ZN (ND2D1)                         0.15       1.37 f
+  A1/MAC1/mult_16/U264/ZN (OAI32D0)                       0.18       1.55 r
+  A1/MAC1/mult_16/U45/S (CMPE22D1)                        0.12       1.68 r
+  A1/MAC1/mult_16/U44/S (CMPE32D1)                        0.09       1.76 r
+  A1/MAC1/mult_16/U15/CO (CMPE32D1)                       0.10       1.87 r
+  A1/MAC1/mult_16/U14/S (CMPE32D1)                        0.08       1.95 f
+  A1/MAC1/mult_16/product[6] (MAC_DW_mult_tc_0)           0.00       1.95 f
+  A1/MAC1/add_16/A[6] (MAC_DW01_add_0)                    0.00       1.95 f
+  A1/MAC1/add_16/U1_6/CO (CMPE32D1)                       0.12       2.07 f
+  A1/MAC1/add_16/U1_7/CO (CMPE32D1)                       0.06       2.13 f
+  A1/MAC1/add_16/U1_8/CO (CMPE32D1)                       0.06       2.19 f
+  A1/MAC1/add_16/U1_9/CO (CMPE32D1)                       0.06       2.25 f
+  A1/MAC1/add_16/U1_10/CO (CMPE32D1)                      0.06       2.31 f
+  A1/MAC1/add_16/U1_11/CO (CMPE32D1)                      0.06       2.37 f
+  A1/MAC1/add_16/U1_12/CO (CMPE32D1)                      0.06       2.43 f
+  A1/MAC1/add_16/U1_13/CO (CMPE32D1)                      0.06       2.49 f
+  A1/MAC1/add_16/U1_14/CO (CMPE32D1)                      0.06       2.55 f
+  A1/MAC1/add_16/U1_15/CO (CMPE32D1)                      0.06       2.61 f
+  A1/MAC1/add_16/U1_16/CO (CMPE32D1)                      0.06       2.68 f
+  A1/MAC1/add_16/U1_17/CO (CMPE32D1)                      0.06       2.74 f
+  A1/MAC1/add_16/U1_18/CO (CMPE32D1)                      0.06       2.80 f
+  A1/MAC1/add_16/U1_19/CO (CMPE32D1)                      0.06       2.86 f
+  A1/MAC1/add_16/U1_20/CO (CMPE32D1)                      0.06       2.92 f
+  A1/MAC1/add_16/U1_21/CO (CMPE32D1)                      0.06       2.98 f
+  A1/MAC1/add_16/U1_22/CO (CMPE32D1)                      0.06       3.04 f
+  A1/MAC1/add_16/U1_23/Z (XOR3D1)                         0.10       3.14 f
+  A1/MAC1/add_16/SUM[23] (MAC_DW01_add_0)                 0.00       3.14 f
+  A1/MAC1/result[23] (MAC)                                0.00       3.14 f
+  A1/tmp_result1_reg[23]/D (DFCNQD1)                      0.00       3.14 f
+  data arrival time                                                  3.14
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  A1/tmp_result1_reg[23]/CP (DFCNQD1)                     0.00       5.00 r
+  library setup time                                     -0.02       4.98
+  data required time                                                 4.98
+  --------------------------------------------------------------------------
+  data required time                                                 4.98
+  data arrival time                                                 -3.14
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.85
+
+
+1
